@@ -1,0 +1,22 @@
+title: MDS Python
+email: maciej.dems@p.lodz.pl
+description: >-
+  Lecture on Technologie Informatyczne II
+baseurl: ""
+url: https://mds-python.github.io/
+
+remote_theme: pmarsceill/just-the-docs
+color_scheme: tul
+
+markdown: kramdown
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+exclude:
+  - html.sed
+  - vendor

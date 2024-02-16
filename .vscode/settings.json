@@ -1,0 +1,23 @@
+{
+    "files.trimTrailingWhitespace": false,
+    "markdownlint.config": {
+        "MD026": {
+            "punctuation": ".,;:。，；："
+        }
+    },
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 132,
+    "[markdown]": {
+        "editor.wordWrapColumn": 132,
+        "editor.wordWrap": "bounded",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "emmet.includeLanguages":{
+        "jekyll": "html",
+        "scss": "css"
+    }
+}

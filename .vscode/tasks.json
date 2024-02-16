@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Jekyll Site",
+            "type": "shell",
+            "command": "bundle exec jekyll build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Serve Jekyll Site",
+            "type": "shell",
+            "command": "bundle exec jekyll serve",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Make HTML",
+            "type": "shell",
+            "command": "sed -f html.sed '${file}'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
