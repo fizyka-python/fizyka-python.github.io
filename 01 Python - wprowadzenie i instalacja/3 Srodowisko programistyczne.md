@@ -70,7 +70,7 @@ Gdy zaczniecie wpisywać `print`, zauważcie, jak IntelliSense prezentuje opcje 
 
 Uruchomienie `hello.py` w Pythonie jest bardzo proste. Wystarczy kliknąć przycisk **Run Python File in Terminal** w prawym górnym rogu edytora.
 
-[Używanie przycisku uruchom plik Pythona w terminalu](run-python-file-in-terminal-button.png)
+![Używanie przycisku uruchom plik Pythona w terminalu](run-python-file-in-terminal-button.png)
 
 Przycisk otwiera panel terminala, w którym interpreter Pythona jest automatycznie aktywowany, a następnie uruchamia `python3 hello.py` (macOS/Linux) lub `python hello.py` (Windows):
 
@@ -90,4 +90,4 @@ Istnieją trzy inne sposoby uruchamiania kodu Python w VS Code:
 <hr/>
 
 Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
-Source: <https://code.visualstudio.com/docs/python/python-tutorial>
+Źródło: <https://code.visualstudio.com/docs/python/python-tutorial>

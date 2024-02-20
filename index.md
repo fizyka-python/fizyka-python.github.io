@@ -14,11 +14,12 @@ has_toc: false
 
 ## Python — wprowadzenie i instalacja
 
-* [What is Python](01%20Python%20Environment/1%20What%20is%20Python)
-* [Installation](01%20Python%20Environment/2%20Installation)
-* [Programming Environment](01%20Python%20Environment/3%20Programming%20Environment)
-* [Fast prototyping with Jupyter Notebooks](01%20Python%20Environment/4%20Jupyter%20Notebooks)
-* [Debugging your code](01%20Python%20Environment/5%20Debugging%20your%20code)
+* [Co to jest Python?](01%20Python%20-%20wprowadzenie%20i%20instalacja/1%20Co%20to%20jest%20Python)
+* [Instalacja](01%20Python%20-%20wprowadzenie%20i%20instalacja/2%20Instalacja)
+* [Środowisko programistyczne](01%20Python%20-%20wprowadzenie%20i%20instalacja/3%20Srodowisko%20programistyczne)
+* [Notatniki Jupyter](01%20Python%20-%20wprowadzenie%20i%20instalacja/4%20Notatniki%20Jupyter)
+* [Debugowanie kodu](01%20Python%20-%20wprowadzenie%20i%20instalacja/5%20Debugowanie%20kodu)
+
 
 ## Constants, Variables and Basic Operations
 
