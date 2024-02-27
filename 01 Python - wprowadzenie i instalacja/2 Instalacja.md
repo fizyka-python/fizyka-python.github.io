@@ -25,6 +25,6 @@ Po udanej instalacji w menu Start pojawią się nowe pozycje:
 ![Nowe elementy w Menu Start](anaconda-start-menu.png)
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

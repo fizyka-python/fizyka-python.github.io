@@ -29,6 +29,6 @@ Prostota Pythona oraz oferowane przez niego możliwości spowodowały, że jest 
 * [pandas](https://pandas.pydata.org/) — szybkie, wydajne, elastyczne i łatwe w użyciu narzędzie open source do analizy i manipulacji danymi.
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

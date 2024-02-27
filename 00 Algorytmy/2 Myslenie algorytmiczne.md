@@ -63,7 +63,7 @@ WEJŚCIE:
   x₁, x₂ - podane liczby
 
 KROKI:
-  - Jeśli x₁ > x₂, określ wartość x na etykietą „większa”.
+  - Jeśli x₁ > x₂, określ wartość x₁ na etykietą „większa”.
     W przeciwnym razie niech etykieta „większa” oznacza x₂.
 
 WYJŚCIE:
@@ -210,6 +210,6 @@ Podczas kursu nauczycie się formalnego języka programowania. Oznacza to, że b
 
 Po wykonaniu tych czynności nie powinniście mieć problemu z przepisaniem algorytmu przy użyciu formalnego języka programowania, którego zasady poznacie w nadchodzących tygodniach.
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

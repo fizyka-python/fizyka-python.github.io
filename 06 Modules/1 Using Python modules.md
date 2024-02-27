@@ -76,6 +76,6 @@ print(numpy.sin(numpy.pi / 2))
 Note, however, that in using this approach, we run the risk that the imported function will replace the built-in function. Moreover, in the program code we do not clearly see which module it comes from. Therefore, please use this method with caution.
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

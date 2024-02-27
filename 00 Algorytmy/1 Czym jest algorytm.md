@@ -76,6 +76,6 @@ Ludzie, którzy dorastali mówiąc językiem naturalnym — czyli po prostu wszy
 
 Oto kilka sugestii dotyczących czytania programów (i innych języków formalnych). Po pierwsze, należy pamiętać, że języki formalne są znacznie bardziej skondensowane niż języki naturalne, więc ich czytanie zajmuje więcej czasu. Ponadto, struktura jest bardzo ważna, więc zazwyczaj nie jest dobrym pomysłem czytanie od góry do dołu, od lewej do prawej. Zamiast tego należy nauczyć się analizować program w głowie, identyfikując tokeny i interpretując strukturę. Wreszcie, szczegóły mają znaczenie. Drobne rzeczy, takie jak błędy ortograficzne i zła interpunkcja, które mogą ujść na sucho w językach naturalnych, mogą mieć duże znaczenie w języku formalnym.
 
-<hr/>
+---
 
-Opublikowano na licencji [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html).
+Treść udostępniona na licencji [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html).

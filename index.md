@@ -21,12 +21,12 @@ has_toc: false
 * [Debugowanie kodu](01%20Python%20-%20wprowadzenie%20i%20instalacja/5%20Debugowanie%20kodu)
 
 
-## Constants, Variables and Basic Operations
+## Stałe, zmienne i podstawowe operacje na nich
 
-* [Constants and their types](02%20Constants,%20Variables%20and%20Basic%20Operations/1%20Constants%20and%20their%20types)
-* [Other types and logical operations](02%20Constants,%20Variables%20and%20Basic%20Operations/2%20Other%20types%20and%20logical%20operations)
-* [Variables](02%20Constants,%20Variables%20and%20Basic%20Operations/3%20Variables)
-* [User interaction](02%20Constants,%20Variables%20and%20Basic%20Operations/4%20Keyboard%20input)
+* [Stałe i ich typy](02%20Stale,%20zmienne%20i%20podstawowe%20operacje%20na%20nich/1%20Stale%20i%20ich%20typy)
+* [Dodatkowe typy i operatory logiczne](02%20Stale,%20zmienne%20i%20podstawowe%20operacje%20na%20nich/2%20Dodatkowe%20typy%20i%20operatory%20logiczne)
+* [Zmienne](02%20Stale,%20zmienne%20i%20podstawowe%20operacje%20na%20nich/3%20Zmienne)
+* [Interakcja z użytkownikiem](02%20Stale,%20zmienne%20i%20podstawowe%20operacje%20na%20nich/4%20Interakcja%20z%20uzytkownikiem)
 
 ## Flow Control
 

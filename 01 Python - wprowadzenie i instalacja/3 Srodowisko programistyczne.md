@@ -87,7 +87,7 @@ Istnieją trzy inne sposoby uruchamiania kodu Python w VS Code:
 * Z palety poleceń (`Ctrl+Shift+P`) wybierzcie Python: **`Start REPL`**, aby otworzyć terminal REPL dla aktualnie wybranego interpretera Pythona. W REPL można następnie wprowadzać i uruchamiać linie kodu pojedynczo.
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
 Źródło: <https://code.visualstudio.com/docs/python/python-tutorial>

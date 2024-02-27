@@ -66,6 +66,6 @@ You can perform mathematical operations on sets:
 | `A < B`                                        | Equivalent of `A <= B` and `A != B`                                                       |
 | `A > B`                                        | Equivalent of `A >= B` and `A != B`                                                       |
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

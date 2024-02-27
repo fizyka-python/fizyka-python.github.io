@@ -59,7 +59,7 @@ Aby zatrzymać uruchamianie programu przed jego ukończeniem, użyjcie czerwoneg
 
 > Korzystajcie regularnie z debuggera, aby zrozumieć, jak działa wasz kod i jakie operacje są wykonywane. Później możecie go użyć do znalezienia błędów w waszych programach. Pamiętajcie, że to normalne, że na początku każdy program ma mnóstwo błędów i jest to normalne. Ważną częścią umiejętności programowania jest umiejętność ich znajdowania i naprawiania.
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
 Source: <https://code.visualstudio.com/docs/python/python-tutorial>

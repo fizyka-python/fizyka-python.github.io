@@ -163,6 +163,6 @@ f"This is a brace {{2 + 2}} and this is a brace expression {{{2 + 2}}}"
 In the above text, the expression marked in blue will be evaluated and the repeated braces will appear only once.
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

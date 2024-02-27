@@ -79,6 +79,6 @@ In Python, exceptions can be of different types that correspond to different typ
 **`ZeroDivisionError`**: Raised when the second operand of the division operation or the division remainder (modulo) is zero. The value assigned to the exception is a string that describes the types of operands and operations.
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

@@ -40,6 +40,6 @@ Bardzo często pisanie programu zaczniecie od wersji z bardzo prostym interfejse
 
 Podczas kursu dowiecie się o pisaniu funkcji, modułów i klas, które są świetnymi narzędziami do osiągnięcia wyżej wspomnianej separacji. Musicie jednak myśleć o tym już od samego początku: w pierwszej kolejności po prostu wyróżnijcie wszystkie dane wejściowe w określonym miejscu na początku programu, zaś dane wyjściowe na końcu i wyraźnie oznaczcie te części kodu jako wejście/wyjście.
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).

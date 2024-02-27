@@ -390,7 +390,7 @@ It may happen if you have installed Anaconda without adding it to the system pat
 
 2. In Visual Studio Code press `Ctrl+,` (control and comma) to open settings and type `python.terminal.activateEnvironment` in the search field in the settings panel. Next, check the box labeled **Activate Python Environment in Terminal created using the Extension**. Close all the existing terminals or restart the Visual Studio Code.
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).  
 Original author Robert J. Budzyński. Source: <https://brain.fuw.edu.pl/edu/index.php/PPy3/NumPy>.

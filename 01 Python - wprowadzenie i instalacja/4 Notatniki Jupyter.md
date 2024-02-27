@@ -145,8 +145,8 @@ Użyjcie notatnika Jupyter (jako kalkulatora), aby rozwiązać następujące dwa
    Jaki jest całkowity koszt hurtowy dla 60 egzemplarzy?
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
 
 Opracowano na postawie [wykładu dr Loreeny Barby](https://github.com/engineersCode/EngComp1_offtheground) oraz dokumentacji VS Code <https://code.visualstudio.com/docs/datascience/jupyter-notebooks>.

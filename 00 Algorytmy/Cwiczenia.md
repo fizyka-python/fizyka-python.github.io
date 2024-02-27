@@ -67,6 +67,6 @@ nav_order:  E
    Napisz algorytm obliczający podatek samochodowy. Pamiętaj, że podatek nie może być mniejszy od 0 (jest to mało prawdopodobny przypadek, ale i tak należy go rozważyć).
 
 
-<hr/>
+---
 
-Opublikowano na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
+Treść udostępniona na licencji [Creative Commons Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl).
