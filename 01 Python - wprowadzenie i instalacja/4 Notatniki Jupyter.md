@@ -137,7 +137,7 @@ Widzicie, Python wie jaka jest poprawna [kolejność wykonywania działań matem
 
 Użyjcie notatnika Jupyter (jako kalkulatora), aby rozwiązać następujące dwa problemy:
 
-1. Objętość kuli o promieniu *r* wynosi $\frac43 \pi r^3$. Jaka jest objętość kuli o średnicy 6,65 cm?
+1. Objętość kuli o promieniu $r$ wynosi $\frac43 \pi r^3$. Jaka jest objętość kuli o średnicy 6,65 cm?
    Jako wartości $\pi$ użyjcie 3.1415926 (na razie).
 
 2. Załóżmy, że cena okładkowa książki wynosi 24,95 EUR, ale księgarnie otrzymują 40% zniżki.

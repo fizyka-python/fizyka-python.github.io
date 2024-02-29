@@ -3,7 +3,7 @@ email: maciej.dems@p.lodz.pl
 description: >-
   Python dla fizyków i inżynierów
 baseurl: ""
-url: https://mds-python.github.io/
+url: https://fizyka-python.github.io/
 
 remote_theme: pmarsceill/just-the-docs
 color_scheme: tul
