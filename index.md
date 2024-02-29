@@ -28,13 +28,13 @@ has_toc: false
 * [Zmienne](02%20Stale,%20zmienne%20i%20podstawowe%20operacje%20na%20nich/3%20Zmienne)
 * [Interakcja z użytkownikiem](02%20Stale,%20zmienne%20i%20podstawowe%20operacje%20na%20nich/4%20Interakcja%20z%20uzytkownikiem)
 
-## Flow Control
+## Kontrola wykonywanych działań
 
-* [Conditions](03%20Flow%20Control/1%20Conditions)
-* Exercise: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
-* [While loops](03%20Flow%20Control/2%20While%20loops)
-* [For loops](03%20Flow%20Control/3%20For%20loops)
-* Exercise: [Loops](https://github.com/mds-python/loops)
+* [Warunki](03%20Kontrola%20wykonywanych%20dzialan/1%20Warunki)
+* Ćwiczenie: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
+* [Pętle „tak długo jak”](03%20Kontrola%20wykonywanych%20dzialan/2%20Petle%20tak%20dlugo%20jak)
+* [Pętle z zakresem](03%20Kontrola%20wykonywanych%20dzialan/3%20Petle%20z%20zakresem)
+* Ćwiczenie: [Loops](https://github.com/mds-python/loops)
 
 ## More on Variables
 
