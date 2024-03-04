@@ -31,10 +31,10 @@ has_toc: false
 ## Kontrola wykonywanych działań
 
 * [Warunki](03%20Kontrola%20wykonywanych%20dzialan/1%20Warunki)
-* Ćwiczenie: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
+* Ćwiczenie: [Równanie kwadratowe](https://github.com/fizyka-python/rownanie)
 * [Pętle „tak długo jak”](03%20Kontrola%20wykonywanych%20dzialan/2%20Petle%20tak%20dlugo%20jak)
 * [Pętle z zakresem](03%20Kontrola%20wykonywanych%20dzialan/3%20Petle%20z%20zakresem)
-* Ćwiczenie: [Loops](https://github.com/mds-python/loops)
+* Ćwiczenie: [Pętle](https://github.com/fizyka-python/petle)
 
 ## More on Variables
 
