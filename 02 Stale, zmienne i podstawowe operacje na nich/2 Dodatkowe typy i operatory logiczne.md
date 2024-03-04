@@ -30,7 +30,7 @@ Proszę w konsoli sprawdzić wyniki następujących operacji:
   
 2 + 2 >= 4  
   
-(3, 2) == (1 + 2, 1 \* 2)  
+(3, 2) == (1 + 2, 1 * 2)  
   
 (1, 2) > (1, 3)  
   

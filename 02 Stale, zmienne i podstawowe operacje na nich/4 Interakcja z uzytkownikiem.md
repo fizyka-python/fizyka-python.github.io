@@ -58,7 +58,7 @@ W tym przykładzie zostanie wyświetlona użytkownikowi prośba o podanie odleg�
 Tak jak napisałem wcześniej, dobrym nawykiem jest oddzielanie części służącej wprowadzaniu i wyświetlaniu danych od części obliczeniowej. Dzięki temu w przyszłości dużo łatwiej będzie zmienić nasz program np. w taki sposób by dane odczytywał z jednego pliku i wyniki zapisywał do innego (zostanie to omówione później). Tak więc kiepsko napisanym programem jest:
 
 ```python
-cale = 2.54 \* float(input("Podaj długość w centymetrach: "))  
+cale = 2.54 * float(input("Podaj długość w centymetrach: "))  
 print("Długość w calach wynosi:", cale)
 ```
 

@@ -67,11 +67,11 @@ Na obsługiwanych przez Pythona wartościach można wykonywać działania za pom
 ```python
 1 + 2  
   
-2 + 2 \* 2  
+2 + 2 * 2  
   
-(2 \* (1 + 1))\*\*2  
+(2 * (1 + 1))**2  
   
-2.5 \* 2  
+2.5 * 2  
   
 7.5 / 3  
   
@@ -83,19 +83,19 @@ Na obsługiwanych przez Pythona wartościach można wykonywać działania za pom
   
 8 % 3  
   
-2\*\*10  
+2**10  
   
-8\*\*(1/3)  
+8**(1/3)  
   
-(-1)\*\*0.5  
+(-1)**0.5  
   
 '1' + '2'  
   
 (1, 2) + (3,)   # proszę zwrócić uwagę na przecinek w (3,)  
   
-3 \* "a"  
+3 * "a"  
   
-(1, 2) \* 2
+(1, 2) * 2
 ```
 
 Proponuję także samodzielnie popróbować wykorzystanie tej interaktywnej powłoki Pythona jako kalkulatora.
@@ -115,7 +115,7 @@ W przypadku działań, które nie mają sensu, Python zgłosi błąd. Proszę sp
   
 1 + "2"  
   
-2.5 \* (1, 2)  
+2.5 * (1, 2)  
   
 "Alala" - "la"  
   
