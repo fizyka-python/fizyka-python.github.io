@@ -36,17 +36,17 @@ has_toc: false
 * [Pętle z zakresem](03%20Kontrola%20wykonywanych%20dzialan/3%20Petle%20z%20zakresem)
 * Ćwiczenie: [Pętle](https://github.com/fizyka-python/petle)
 
-## More on Variables
+## Jeszcze o zmiennych
 
-* [Operations on sequences](04%20More%20on%20Variables/1%20Operations%20on%20sequences)
-* [Lists](04%20More%20on%20Variables/2%20Lists)
-* [Dictionaries](04%20More%20on%20Variables/3%20Dictionaries)
-* [Sets](04%20More%20on%20Variables/4%20Sets)
-* [Three remarks about iteration over sequences](04%20More%20on%20Variables/5%20Three%20remarks%20about%20iteration%20over%20sequences)
-* [Complex numbers](04%20More%20on%20Variables/6%20Complex%20numbers)
-* [String operations](04%20More%20on%20Variables/7%20String%20operations)
-* [Variables and variable types](04%20More%20on%20Variables/8%20Variables%20and%20variable%20types)
-* Exercise: [Variables](https://github.com/mds-python/variables)
+* [Operacje na sekwencjach](04%20Jeszcze%20o%20zmiennych/1%20Operacje%20na%20sekwencjach)
+* [Listy](04%20Jeszcze%20o%20zmiennych/2%20Listy)
+* [Słowniki](04%20Jeszcze%20o%20zmiennych/3%20Slowniki)
+* [Zbiory](04%20Jeszcze%20o%20zmiennych/4%20Zbiory)
+* [Kilka uwag o iteracji po sekwencjach](04%20Jeszcze%20o%20zmiennych/5%20Kilka%20uwag%20o%20iteracji%20po%20sekwencjach)
+* [Liczby zespolone](04%20Jeszcze%20o%20zmiennych/6%20Liczby%20zespolone)
+* [Operacje na łańcuchach znaków](04%20Jeszcze%20o%20zmiennych/7%20Operacje%20na%20lancuchach%20znakow)
+* [Typy zmienialne i zmienne](04%20Jeszcze%20o%20zmiennych/8%20Typy%20zmienialne%20i%20zmienne)
+* Ćwiczenie: [Zmienne](https://github.com/fizyka-python/zmienne)
 
 ## Functions
 
