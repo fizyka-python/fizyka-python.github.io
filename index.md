@@ -48,16 +48,16 @@ has_toc: false
 * [Typy zmienialne i zmienne](04%20Jeszcze%20o%20zmiennych/8%20Typy%20zmienialne%20i%20zmienne)
 * Ćwiczenie: [Zmienne](https://github.com/fizyka-python/zmienne)
 
-## Functions
+## Funkcje
 
-* [Defining and calling functions](05%20Functions/1%20Defining%20and%20calling%20functions)
-* [Functions with arbitrary arguments](05%20Functions/2%20Functions%20with%20arbitrary%20arguments)
-* Exercise: [Functions](https://github.com/mds-python/functions)
+* [Definiowanie i wywoływanie funkcji](05%20Funkcje/1%20Definiowanie%20i%20wywolywanie%20funkcji)
+* [Funkcje o dowolnych argumentach](05%20Funkcje/2%20Funkcje%20o%20dowolnych%20argumentach)
+* Ćwiczenie: [Funkcje](https://github.com/fizyka-python/funkcje)
 
-## Modules
+## Moduły
 
-* [Using Python modules](06%20Modules/1%20Using%20Python%20modules)
-* [Creating custom modules](06%20Modules/2%20Creating%20custom%20modules)
+* [Korzystanie z modułów Pythona](06%20Moduly/1%20Korzystanie%20z%20modulow%20Pythona)
+* [Tworzenie własnych modułów](06%20Moduly/2%20Tworzenie%20wlasnych%20modulow)
 
 ## Exceptions
 
