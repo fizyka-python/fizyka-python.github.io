@@ -51,10 +51,10 @@ for numer, element in enumerate(sekwencja):
 
 ## Iteracja po kilku sekwencjach jednocześnie
 
-Możliwa jest też jednoczesna iteracja po kilku sekwencjach. Służy to tego funkcja `zip(sekwencja1, sekwencja2...)`. Ilość sekwencji do jednoczesnej iteracji jest dowolna. Warunkiem jest, że wszystkie te sekwencje muszą być tej samej długości (tak naprawdę nie jest to konieczne — pod uwagę zostanie wzięte tylko tyle elementów ile jest w najkrótszej sekwencji). Iteracja ta ma postać:
+Możliwa jest też jednoczesna iteracja po kilku sekwencjach. Służy to tego funkcja `zip(sekwencja1, sekwencja2...)`. Ilość sekwencji do jednoczesnej iteracji jest dowolna. Warunkiem jest, że wszystkie te sekwencje muszą być tej samej długości (tak naprawdę nie jest to konieczne — pod uwagę zostanie wzięte tylko tyle elementów ile jest w najkrótszej sekwencji). Iteracja ta ma postać:
 
 ```python
-for element1, element2, element3 in zip(sekwencja1, sekwencja2, sekwencja3):
+for element1, element2, element3 in zip(sekwencja1, sekwencja2, sekwencja3):
    blok pętli
 ```
 

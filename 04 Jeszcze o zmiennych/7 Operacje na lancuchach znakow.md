@@ -6,7 +6,7 @@ nav_order:  7
 
 # Operacje na łańcuchach znaków
 
-Łańcuchy znaków są specjalnymi rodzajami sekwencji przeznaczonymi do przechowywania napisów. W związku z tym posiadają szereg metod, które pozwalają wykonywać przydatne operacje na tych napisach. Ich szczegółowy opis znajduje się w [dokumentacji Pythona](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str). Poniżej przedstawione jest omówienie kilku najbardziej przydatnych operacji i metod dla łańcuchów tekstowych:
+Łańcuchy znaków są specjalnymi rodzajami sekwencji przeznaczonymi do przechowywania napisów. W związku z tym posiadają szereg metod, które pozwalają wykonywać przydatne operacje na tych napisach. Ich szczegółowy opis znajduje się w [dokumentacji Pythona](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str). Poniżej przedstawione jest omówienie kilku najbardziej przydatnych operacji i metod dla łańcuchów tekstowych:
 
 ## Znajdowanie pod-łańcuchów
 
@@ -17,7 +17,7 @@ Jeżeli potrzebna jest znajomość pozycji jakiego fragmentu, metoda `find` znaj
 ```python
 'karuzela'.find('ruz')    # 2
 
-'karuzela'.find('ruza')   # -1
+'karuzela'.find('ruza')   # -1
 ```
 
 ## Usuwanie białych znaków
@@ -27,12 +27,12 @@ Metody `lstrip`, `rsrip` oraz `strip` usuwają białe znaki (spacje, znaki nowej
 ```python
 wyrazy = "raz, dwa, trzy"
 
-wyrazy.split(',')                               # ['raz', ' dwa', ' trzy']
+wyrazy.split(',')                               # ['raz', ' dwa', ' trzy']
 
 [wyraz.strip() for wyraz in wyrazy.split(',')]  # ['raz', 'dwa', 'trzy']
 ```
 
-Aby zobaczyć jaka jest jest różnica pomiędzy `lstrip`, `rsrip` oraz `strip`, proszę wykonać w konsoli:
+Aby zobaczyć jaka jest jest różnica pomiędzy `lstrip`, `rsrip` oraz `strip`, proszę wykonać w konsoli:
 
 ```python
 tekst = "   AAA   "
@@ -82,7 +82,7 @@ Bardziej wyrafinowaną metodą do zmiany wielkości liter są:
 
 Python umożliwia konstruowanie napisów z wykorzystaniem wartości przechowywanych w innych zmiennych. Istnieją trzy realizacji tego — za pomocą operatora `%` (jest to metoda przestarzała i nie zaleca się jej stosowania), za pomocą metody `format` oraz za pomocą specjalnych _łańcuchów formatujących_. Ta ostatnia metoda jest najprostsza do zastosowania, jednakże wymaga ona Pythona w wersji przynajmniej 3.6. Ponieważ obecnie dostępna jest już nowsza wersja, ta właśnie metoda zostanie omówiona:
 
-_Łańcuchy formatujące_ to specjalne łańcuchy tekstowe, które tworzy się dodając znak `f` bezpośrednio przed cudzysłowem (pojedynczym lub podwójnym) otwierającym łańcuch (nie wolno pomiędzy nie wstawiać spacji). W takim łańcuchu nawias klamrowy nabiera specjalnego znaczenia — wewnątrz niego można umieścić dowolne wyrażenie Pythona, którego wartość zostanie wstawiona do łańcucha. Na przykład:
+_Łańcuchy formatujące_ to specjalne łańcuchy tekstowe, które tworzy się dodając znak `f` bezpośrednio przed cudzysłowem (pojedynczym lub podwójnym) otwierającym łańcuch (nie wolno pomiędzy nie wstawiać spacji). W takim łańcuchu nawias klamrowy nabiera specjalnego znaczenia — wewnątrz niego można umieścić dowolne wyrażenie Pythona, którego wartość zostanie wstawiona do łańcucha. Na przykład:
 
 ```python
 wzrost = float(input("Podaj swój wzrost [cm]: ")) / 100   # przeliczamy podany wzrost na metry
@@ -95,7 +95,7 @@ komunikat = f"Wzrost: {100 * wzrost}cm, waga: {masa}kg, BMI: {bmi}"
 print(komunikat)
 ```
 
-Proszę uruchomić powyższy przykład i zobaczyć jaki komunikat zostanie wyświetlony. Następnie proszę spróbować usunąć znak `f` sprzed cudzysłowu i zobaczyć różnicę.
+Proszę uruchomić powyższy przykład i zobaczyć jaki komunikat zostanie wyświetlony. Następnie proszę spróbować usunąć znak `f` sprzed cudzysłowu i zobaczyć różnicę.
 
 W powyższym przykładzie wyświetlony komunikat będzie miał postać:
 
@@ -110,7 +110,7 @@ Proszę zwrócić uwagę, że wartość BMI wydrukowana jest w sposób nieczytel
 komunikat = f"Wzrost: {100 * wzrost}cm, waga: {masa}kg, BMI: {bmi:.2f}"
 ```
 
-Występujące po dwukropku `.2f` oznacza, że wartość wyrażenia (w tym przypadku zmiennej `bmi`) ma być przedstawiona jako liczba rzeczywista ( `f` od _float_) z dwoma miejscami po przecinku ( `.2`). Poniżej znajduje się zestawienie kilku przydatnych opisów formatu, które mogą występować po dwukropku ( _X_ i _Y_ w tabeli powinny zostać zastąpione liczbami całkowitymi):
+Występujące po dwukropku `.2f` oznacza, że wartość wyrażenia (w tym przypadku zmiennej `bmi`) ma być przedstawiona jako liczba rzeczywista ( `f` od _float_) z dwoma miejscami po przecinku ( `.2`). Poniżej znajduje się zestawienie kilku przydatnych opisów formatu, które mogą występować po dwukropku ( _X_ i _Y_ w tabeli powinny zostać zastąpione liczbami całkowitymi):
 
 | Format  | Opis                                                                                                                                        |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -131,7 +131,7 @@ Występujące po dwukropku `.2f` oznacza, że wartość wyrażenia (w tym przypa
 | `>XXs`  | dowolne wyrównane do prawej wyrażenie obejmujące co najmniej _`XX`_ znaków                                                                  |
 | `^XXs`  | dowolne wyśrodkowane wyrażenie obejmujące co najmniej _`XX`_ znaków                                                                         |
 
-`.Yf`liczba rzeczywista z _Y_ miejsc po kropce dziesiętnej (wartość wyrażenia musi typu `float`) `Xf`liczba zajmująca przynajmniej _X_ znaków, w razie potrzeby na początku zostaną dodane spacje(wartość wyrażenia musi typu `float`) `X.Yf`liczba zajmująca przynajmniej _X_ znaków z _Y_ miejsc po kropce dziesiętnej (wartość wyrażenia musi typu `float`) `0Xf`liczba zajmująca przynajmniej _X_ znaków, w razie potrzeby na początku zostaną dodane zera(wartość wyrażenia musi typu `float`) `0X.Yf`jak `X.Yf`, ale puste miejsca wypełniane są zerami`+XXf`gdzie _XX_ to jedno z powyższych oznaczeń `X`, `X.Y`, `0X`, `0X.Y` — zawsze będzie dodany znak (w przypadku liczb nieujemnych `+`)**`e`**liczba rzeczywista zapisana w postaci wykładniczej ( `1.4e+2`)(wartość wyrażenia musi typu `float`) `XXXe`dla liczb w postaci wykładniczej można wymusić ilość miejsc po przecinku (w mantysie), minimalną szerokość napisu i znak tak jak powyżej`Xd`liczba całkowita zajmująca przynajmniej _X_ znaków, w wypełnieniem spacjami(wartość wyrażenia musi typu `int`) `0Xd`liczba całkowita zajmująca przynajmniej _X_ znaków, w wypełnieniem zerami(wartość wyrażenia musi typu `int`) **`x`**liczba całkowita zapisana w systemie szesnastkowym (wartość wyrażenia musi typu `int`) **`o`**liczba całkowita zapisana w systemie ósemkowym (wartość wyrażenia musi typu `int`) **`b`**liczba całkowita zapisana w systemie dwójkowym (wartość wyrażenia musi typu `int`) `<XXs`dowolne wyrażenie wyrównane do lewej o całkowitej szerokości minimum _XX_ znaków`>XXs`dowolne wyrażenie wyrównane do prawej o całkowitej szerokości minimum _XX_ znaków`^XXs`dowolne wyrażenie wyrównane do środka o całkowitej szerokości minimum _XX_ znaków
+`.Yf`liczba rzeczywista z _Y_ miejsc po kropce dziesiętnej (wartość wyrażenia musi typu `float`) `Xf`liczba zajmująca przynajmniej _X_ znaków, w razie potrzeby na początku zostaną dodane spacje(wartość wyrażenia musi typu `float`) `X.Yf`liczba zajmująca przynajmniej _X_ znaków z _Y_ miejsc po kropce dziesiętnej (wartość wyrażenia musi typu `float`) `0Xf`liczba zajmująca przynajmniej _X_ znaków, w razie potrzeby na początku zostaną dodane zera(wartość wyrażenia musi typu `float`) `0X.Yf`jak `X.Yf`, ale puste miejsca wypełniane są zerami`+XXf`gdzie _XX_ to jedno z powyższych oznaczeń `X`, `X.Y`, `0X`, `0X.Y` — zawsze będzie dodany znak (w przypadku liczb nieujemnych `+`)**`e`**liczba rzeczywista zapisana w postaci wykładniczej ( `1.4e+2`)(wartość wyrażenia musi typu `float`) `XXXe`dla liczb w postaci wykładniczej można wymusić ilość miejsc po przecinku (w mantysie), minimalną szerokość napisu i znak tak jak powyżej`Xd`liczba całkowita zajmująca przynajmniej _X_ znaków, w wypełnieniem spacjami(wartość wyrażenia musi typu `int`) `0Xd`liczba całkowita zajmująca przynajmniej _X_ znaków, w wypełnieniem zerami(wartość wyrażenia musi typu `int`) **`x`**liczba całkowita zapisana w systemie szesnastkowym (wartość wyrażenia musi typu `int`) **`o`**liczba całkowita zapisana w systemie ósemkowym (wartość wyrażenia musi typu `int`) **`b`**liczba całkowita zapisana w systemie dwójkowym (wartość wyrażenia musi typu `int`) `<XXs`dowolne wyrażenie wyrównane do lewej o całkowitej szerokości minimum _XX_ znaków`>XXs`dowolne wyrażenie wyrównane do prawej o całkowitej szerokości minimum _XX_ znaków`^XXs`dowolne wyrażenie wyrównane do środka o całkowitej szerokości minimum _XX_ znaków
 
 Jako przykład spróbujmy wydrukować tabelę z kolejnymi rekordami świata w biegu na 100m:
 
@@ -146,7 +146,7 @@ rekordy = [
 
 szer = 42          # szerokość całej tabeli
 print("-" * szer)  # drukujemy poziomą linię
-print("|  Czas  |     Zawodnik     |    Data    |")
+print("|  Czas  |     Zawodnik     |    Data    |")
 print("-" * szer)
 for rekord in rekordy:
     print(f"| {rekord['czas']:6.3f} | {rekord['zawodnik']:^16s} | {rekord['data']:>10s} |")

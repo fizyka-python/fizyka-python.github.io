@@ -6,7 +6,7 @@ nav_order:  3
 
 # Pętle z zakresem
 
-Innym rodzajem pętli występującym w Pythonie jest pętla **for**. Ma ona zastosowanie wtedy gdy z góry jesteśmy w stanie przewidzieć ile razy chcemy tę pętlę wykonać, bądź gdy chcemy ją powtórzyć dla każdego elementu sekwencji. Składnia pętli **for** jest następująca:
+Innym rodzajem pętli występującym w Pythonie jest pętla **for**. Ma ona zastosowanie wtedy gdy z góry jesteśmy w stanie przewidzieć ile razy chcemy tę pętlę wykonać, bądź gdy chcemy ją powtórzyć dla każdego elementu sekwencji. Składnia pętli **for** jest następująca:
 
 <pre>
 <b>for</b> <i>wskaźnik</i> <b>in</b> <i>sekwencja_po_której_powtarzamy</i><b>:</b>
@@ -15,7 +15,7 @@ Innym rodzajem pętli występującym w Pythonie jest pętla **for**. Ma ona zas
     wartości każdego elementu sekwencji po kolei
 </pre>
 
-W powyższej składni jako _wskaźnik_ podajemy poprawną nazwę zmiennej. Zmienna ta nie musi być wcześniej zdefiniowana (a jeżeli była, to jej dotychczasowa wartość zostanie usunięta). W każdym przebiegu pętli zmienna ta będzie przyjmować kolejne wartości z sekwencji, po której iterujemy. Oczywiście sekwencja ta musi istnieć — albo być podana jako stała, albo być przypisana do zmiennej.
+W powyższej składni jako _wskaźnik_ podajemy poprawną nazwę zmiennej. Zmienna ta nie musi być wcześniej zdefiniowana (a jeżeli była, to jej dotychczasowa wartość zostanie usunięta). W każdym przebiegu pętli zmienna ta będzie przyjmować kolejne wartości z sekwencji, po której iterujemy. Oczywiście sekwencja ta musi istnieć — albo być podana jako stała, albo być przypisana do zmiennej.
 
 Do tej pory zostały przedstawione dwa typy sekwencyjne: łańcuch znaków oraz krotka. Poniżej przedstawiony jest przykład pętli, w której sumowane są wszystkie elementy krotki:
 
@@ -41,7 +41,7 @@ Powyższy przykład zapyta użytkownika o imię, a następnie wypisze każdą li
 
 ## Szyfr Cezara
 
-Przyjrzyjmy się teraz bardziej zaawansowanemu przykładowi. Zaimplementujemy [szyfr Cezara](https://pl.wikipedia.org/wiki/Szyfr_Cezara) (aczkolwiek ograniczymy się do alfabetu stosowanego w języku angielskim). Wpierw jednak konieczne jest wyjaśnienie w jaki sposób znaki przetrzymywane są w pamięci komputera. Otóż każdy komputer jest urządzeniem, które potrafi przeprowadzać działania na liczbach i tylko na liczbach. W związku z tym, aby zapisać dowolny tekst w pamięci komputera, każdemu znakowi musi być przyporządkowana pewna liczba. Jaka liczba odpowiada jakiej literze definiuje standard [ASCII](https://pl.wikipedia.org/wiki/ASCII) oraz [Unikod](https://pl.wikipedia.org/wiki/Unikod). W Pythonie istnieją dwie funkcje, które pozwalają sprawdzić jaka liczba odpowiada jakiem znakowi i na odwrót. Pierwsza z nich to funkcja `ord(znak)`, której argumentem może być wyłącznie jeden znak (czyli łańcuch tekstowy zawierający dokładnie jeden element). Zwróci ona kod numeryczny tego znaku. Odwrotna funkcja, to `chr(kod)`, która zwróci znak reprezentowany przez kod numeryczny podany jako jej argument. Proszę w interaktywnej konsoli sprawdzić:
+Przyjrzyjmy się teraz bardziej zaawansowanemu przykładowi. Zaimplementujemy [szyfr Cezara](https://pl.wikipedia.org/wiki/Szyfr_Cezara) (aczkolwiek ograniczymy się do alfabetu stosowanego w języku angielskim). Wpierw jednak konieczne jest wyjaśnienie w jaki sposób znaki przetrzymywane są w pamięci komputera. Otóż każdy komputer jest urządzeniem, które potrafi przeprowadzać działania na liczbach i tylko na liczbach. W związku z tym, aby zapisać dowolny tekst w pamięci komputera, każdemu znakowi musi być przyporządkowana pewna liczba. Jaka liczba odpowiada jakiej literze definiuje standard [ASCII](https://pl.wikipedia.org/wiki/ASCII) oraz [Unikod](https://pl.wikipedia.org/wiki/Unikod). W Pythonie istnieją dwie funkcje, które pozwalają sprawdzić jaka liczba odpowiada jakiem znakowi i na odwrót. Pierwsza z nich to funkcja `ord(znak)`, której argumentem może być wyłącznie jeden znak (czyli łańcuch tekstowy zawierający dokładnie jeden element). Zwróci ona kod numeryczny tego znaku. Odwrotna funkcja, to `chr(kod)`, która zwróci znak reprezentowany przez kod numeryczny podany jako jej argument. Proszę w interaktywnej konsoli sprawdzić:
 
 ```python
 print(ord('A'))
@@ -108,9 +108,9 @@ for i in range(10):
 ```
 Proszę zwrócić uwagę, że liczba 10 nie została już wydrukowana.
 
-Tak naprawdę `range` jest funkcją, która na bieżąco generuje sekwencję kolejnych liczb, zaś pętla **for** po prostu iteruje po tej generowanej sekwencji. Można jej używać na trzy sposoby:
+Tak naprawdę `range` jest funkcją, która na bieżąco generuje sekwencję kolejnych liczb, zaś pętla **for** po prostu iteruje po tej generowanej sekwencji. Można jej używać na trzy sposoby:
 
-Najbardziej podstawowy i najczęściej używany `range(stop)` utworzy sekwencję od 0 do wartości poprzedzającej  `stop`. Możemy też podać tej funkcji dwa argumenty:  `range(start, stop)`. Wtedy odliczanie zacznie się od wartości podanej jako `start` (jeżeli _start_ ≥ _stop_, zakres będzie pusty i pętla nie wykona się ani razu). Tak więc `range(stop)` jest równoważny `range(0, stop)`. Trzecią wersją jest postać `range(start, end, step)`, która dodaje do tego z jakim krokiem mamy za każdym razem zmieniać wartość. W tym przypadku iteracja zakończy się kiedy kolejna wartość osiągnie lub przekroczy wartość _stop_.
+Najbardziej podstawowy i najczęściej używany `range(stop)` utworzy sekwencję od 0 do wartości poprzedzającej  `stop`. Możemy też podać tej funkcji dwa argumenty:  `range(start, stop)`. Wtedy odliczanie zacznie się od wartości podanej jako `start` (jeżeli _start_ ≥ _stop_, zakres będzie pusty i pętla nie wykona się ani razu). Tak więc `range(stop)` jest równoważny `range(0, stop)`. Trzecią wersją jest postać `range(start, end, step)`, która dodaje do tego z jakim krokiem mamy za każdym razem zmieniać wartość. W tym przypadku iteracja zakończy się kiedy kolejna wartość osiągnie lub przekroczy wartość _stop_.
 
 Zatem aby wydrukować liczby od 1 do 10 możemy zastosować:
 
@@ -128,11 +128,11 @@ for i in range(10, 0, -1):
 
 ## Ćwiczenie
 
-Proszę napisać program, który zapyta użytkownika o liczbę całkowitą, a następnie obliczy i wydrukuje jej silnię (czyli iloczyn liczb od 1 do podanej liczby włącznie). Jako wzoru można użyć powyższy przykład obliczający sumę liczb oraz przykłady zastosowania funkcji `range`. Proszę sprawdzić czy obliczone 5! równe jest 120, zaś 10! — 3628800.
+Proszę napisać program, który zapyta użytkownika o liczbę całkowitą, a następnie obliczy i wydrukuje jej silnię (czyli iloczyn liczb od 1 do podanej liczby włącznie). Jako wzoru można użyć powyższy przykład obliczający sumę liczb oraz przykłady zastosowania funkcji `range`. Proszę sprawdzić czy obliczone 5! równe jest 120, zaś 10! — 3628800.
 
 ## Przerywanie i kontynuacja pętli
 
-Podobnie jak w przypadku pętli **while**, w pętli **for** można stosować komendy `break` oraz `continue`. Ich działanie jest identyczne jak w opisanym wcześniej przypadku. Także tutaj możliwe jest zastosowanie bloku `else:` po pętli, który zostanie wykonany tylko wtedy gdy pętla zakończy się normalnie (czyli po skończeniu iteracji po wszystkich elementach), a nie przez `break`. Przykład:
+Podobnie jak w przypadku pętli **while**, w pętli **for** można stosować komendy `break` oraz `continue`. Ich działanie jest identyczne jak w opisanym wcześniej przypadku. Także tutaj możliwe jest zastosowanie bloku `else:` po pętli, który zostanie wykonany tylko wtedy gdy pętla zakończy się normalnie (czyli po skończeniu iteracji po wszystkich elementach), a nie przez `break`. Przykład:
 
 
 ```python

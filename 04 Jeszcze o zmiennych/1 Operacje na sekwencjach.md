@@ -6,7 +6,7 @@ nav_order:  1
 
 # Operacje na sekwencjach
 
-o tej pory przedstawione zostały dwa typy będące sekwencjami (czyli zawierające uporządkowany ciąg danych) — krotka ( `tuple`) oraz łańcuch znaków ( `str`). Pokazane zostało jak można iterować po każdym elemencie za pomocą pętli **for**. Poniżej znajduje się opis innych przydatnych operacji, jakie możemy wykonać na każdej sekwencji (nie tylko na dwóch powyższych, ale także na innych, które zostaną niedługo przedstawione).
+o tej pory przedstawione zostały dwa typy będące sekwencjami (czyli zawierające uporządkowany ciąg danych) — krotka ( `tuple`) oraz łańcuch znaków ( `str`). Pokazane zostało jak można iterować po każdym elemencie za pomocą pętli **for**. Poniżej znajduje się opis innych przydatnych operacji, jakie możemy wykonać na każdej sekwencji (nie tylko na dwóch powyższych, ale także na innych, które zostaną niedługo przedstawione).
 
 ## Długość sekwencji
 
@@ -45,7 +45,7 @@ Skoro sekwencje są uporządkowanym zbiorem elementów, to konieczna jest możli
 ```python
 dane = ('A', 'B', 'C')
 print(dane[0])  # drukuje pierwszy element krotki ('A')
-print(dane[2])  # drukuje trzeci element krotki ('C')
+print(dane[2])  # drukuje trzeci element krotki ('C')
 
 wyraz = "Kalambur"
 for i in (1, 3, 6):
@@ -53,9 +53,9 @@ for i in (1, 3, 6):
     print(wyraz[i])
 ```
 
-Wewnątrz nawiasów kwadratowych musi znajdować się liczba całkowita (bądź zmienna, taką liczbę reprezentująca), zwana _indeksem_. Wskazuje ona na numer elementu w danej sekwencji, przy czym **pierwszy element ma numer 0**. Jest to nieco nieintuicyjne i wynika z faktu, że w większości starszych języków programowania, taka konwencja była historycznie stosowana. Proszę zwrócić uwagę, że takie zachowanie jest spójne z działaniem omówionej wcześniej funkcji `range` — Python zawsze liczy od 0.
+Wewnątrz nawiasów kwadratowych musi znajdować się liczba całkowita (bądź zmienna, taką liczbę reprezentująca), zwana _indeksem_. Wskazuje ona na numer elementu w danej sekwencji, przy czym **pierwszy element ma numer 0**. Jest to nieco nieintuicyjne i wynika z faktu, że w większości starszych języków programowania, taka konwencja była historycznie stosowana. Proszę zwrócić uwagę, że takie zachowanie jest spójne z działaniem omówionej wcześniej funkcji `range` — Python zawsze liczy od 0.
 
-W Pythonie możliwe jest także stosowanie jako indeksów liczb ujemnych. Wtedy odliczanie następuje od końca. Zatem `sekwencja[-1]` oznacza ostatni element sekwencji, `sekwencja[-2]` — przedostatni itd. Przykład:
+W Pythonie możliwe jest także stosowanie jako indeksów liczb ujemnych. Wtedy odliczanie następuje od końca. Zatem `sekwencja[-1]` oznacza ostatni element sekwencji, `sekwencja[-2]` — przedostatni itd. Przykład:
 
 ```python
 imie = input("Podaj swoje imię: ")
@@ -66,11 +66,11 @@ else:
     print("Jesteś mężczyzną")
 ```
 
-Jako proste ćwiczenie proszę zmodyfikować powyższy przykład tak, by każdy _Kuba_ został potraktowany jak mężczyzna ☺.
+Jako proste ćwiczenie proszę zmodyfikować powyższy przykład tak, by każdy _Kuba_ został potraktowany jak mężczyzna ☺.
 
 ### Wycinki zakresów
 
-Nawiasy kwadratowe można stosować do wyłuskiwania nie tylko pojedynczych elementów sekwencji, ale także ich wycinków. Takie wycinki mają następującą postać `sekwencja[start:stop:krok]`, gdzie _start_ to indeks pierwszego elementu wchodzącego do wycinka, _stop_ — index pierwszego elementu nie wchodzącego już do wycinka, zaś _krok_ to krok z jakim brane są kolejne elementy (proszę zwrócić uwagę, że istnieje to pewne podobieństwo do argumentów funkcji `range`). Każda z liczb _start_, _stop_ oraz _krok_ może być pominięta.
+Nawiasy kwadratowe można stosować do wyłuskiwania nie tylko pojedynczych elementów sekwencji, ale także ich wycinków. Takie wycinki mają następującą postać `sekwencja[start:stop:krok]`, gdzie _start_ to indeks pierwszego elementu wchodzącego do wycinka, _stop_ — index pierwszego elementu nie wchodzącego już do wycinka, zaś _krok_ to krok z jakim brane są kolejne elementy (proszę zwrócić uwagę, że istnieje to pewne podobieństwo do argumentów funkcji `range`). Każda z liczb _start_, _stop_ oraz _krok_ może być pominięta.
 
 Działanie wycinków najlepiej zobrazuje przykład. Proszą przepisać go w konsoli interaktywnej i spróbować dokładnie zrozumieć w jaki sposób odliczane są kolejne elementy każdego wycinka.
 
@@ -89,7 +89,7 @@ cyfry[::-1]              # (9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
 cyfry[:-4:-1]            # (9, 8, 7)
 ```
 
-**Ważne!** Proszę zwrócić uwagę, że element o indeksie _stop_ nie wchodzi już w skład wycinka.
+**Ważne!** Proszę zwrócić uwagę, że element o indeksie _stop_ nie wchodzi już w skład wycinka.
 
 Przykład dla łańcuchów tekstowych:
 

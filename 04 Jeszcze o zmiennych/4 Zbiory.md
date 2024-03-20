@@ -25,7 +25,7 @@ Wszystkie elementy zbioru muszą być niezmienialne (czyli nie mogą być nimi l
 
 Powyższe wyrażenie będzie miało wartość `True`, gdyż oba zbiory są identyczne.
 
-Ilość elementów zbioru można poznać, tak jak dla każdej sekwencji czy słownika, za pomocą funkcji `len`. Podobnie można iterować po nich używając pętli **for** (kolejność iteracji będzie jednak nieokreślona). Np.
+Ilość elementów zbioru można poznać, tak jak dla każdej sekwencji czy słownika, za pomocą funkcji `len`. Podobnie można iterować po nich używając pętli **for** (kolejność iteracji będzie jednak nieokreślona). Np.
 
 ```python
 primes = {2, 3, 5, 7, 11}
@@ -44,7 +44,7 @@ A.add(4)
 print(4 in A)
 ```
 
-Istnieją dwie metody usuwania elementów ze zbioru: `discard` i `remove` . Ich zachowanie zmienia się tylko w przypadku, gdy usuwanego elementu nie ma w zbiorze. W takim przypadku metoda `discard` nic nie robi, a metoda `remove` powoduje wyjątek **KeyError**.
+Istnieją dwie metody usuwania elementów ze zbioru: `discard` i `remove` . Ich zachowanie zmienia się tylko w przypadku, gdy usuwanego elementu nie ma w zbiorze. W takim przypadku metoda `discard` nic nie robi, a metoda `remove` powoduje wyjątek **KeyError**.
 
 Ponieważ elementy zbioru nie mają ani indeksów ani kluczy, nie jest możliwy bezpośredni dostęp do pojedynczych elementów. Jeżeli jest to potrzebne, można przekształcić taki zbiór w listę ( `lista = list(zbiór)`).
 

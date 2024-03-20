@@ -9,11 +9,11 @@ nav_order:  2
 
 ## Typ None
 
-Poza wymienionymi powyżej w Pythonie istnieje jeszcze specjalna stała None oznaczająca nic oraz dwie stałe logiczne. Znaczenie stałej None zostanie omówione później. Generalnie jest ona używana gdy chcemy podkreślić, że nie mamy do dyspozycji żadnej sensownej wartości.
+Poza wymienionymi powyżej w Pythonie istnieje jeszcze specjalna stała None oznaczająca nic oraz dwie stałe logiczne. Znaczenie stałej None zostanie omówione później. Generalnie jest ona używana gdy chcemy podkreślić, że nie mamy do dyspozycji żadnej sensownej wartości.
 
 ## Typy i operatory logiczne
 
-Typ logiczny nosi nazwę bool. Istnieją wyłącznie dwie wartości tego typu True (prawda) i False (fałsz). Zazwyczaj pojawiają się one jako wynik działania operatorów logicznych:
+Typ logiczny nosi nazwę bool. Istnieją wyłącznie dwie wartości tego typu True (prawda) i False (fałsz). Zazwyczaj pojawiają się one jako wynik działania operatorów logicznych:
 
 * `==` sprawdza czy dwie wielości są równe (**Uwaga! ten operator to <span style="color:red">podwojony</span> znak `=`**)
 * `!=` sprawdza czy dwie wielości są różne

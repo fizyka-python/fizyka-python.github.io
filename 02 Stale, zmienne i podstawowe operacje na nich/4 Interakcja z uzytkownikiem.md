@@ -10,7 +10,7 @@ Do tej pory skupialiśmy się na części back-endowej kodu (zobacz [Kuchnia i j
 
 ## Funkcja `print`
 
-Funkcja `print` służy do drukowania stałych i zmiennych na ekranie. Domyślnie wypisuje ona na ekranie wszystkie wartości podane jako jej argumenty, oddzielając je spacjami. Na koniec drukuje ona znak nowej linii, tak że kolejne wywołania funkcji `print` będą argumenty w kolejnych liniach.
+Funkcja `print` służy do drukowania stałych i zmiennych na ekranie. Domyślnie wypisuje ona na ekranie wszystkie wartości podane jako jej argumenty, oddzielając je spacjami. Na koniec drukuje ona znak nowej linii, tak że kolejne wywołania funkcji `print` będą argumenty w kolejnych liniach.
 
 Istnieje możliwość zmiany znaku, jakim oddzielane są kolejne wartości do wydrukowania — zastępując domyślną spację dowolnym tekstem. W tym celu po argumentach do wydrukowania należy dopisać `sep='nowy łącznik'`. Podobnie można zmienić znaki drukowane na końcu (domyślnie przejście do nowej linii), dodając `end='nowy koniec'`. Na przykład:
 
@@ -20,9 +20,9 @@ print(1, 2, 3, end='X')              # 1 2 3X
 print(1, 2, 3, sep='...', end='XX')  # 1...2...3XX
 ```
 
-W dwóch ostatnich przypadkach, nie zostanie wydrukowany znak nowej linii. Kolejne wywołanie funkcji `print` spowoduje drukowanie tekstu w tej samej linijce.
+W dwóch ostatnich przypadkach, nie zostanie wydrukowany znak nowej linii. Kolejne wywołanie funkcji `print` spowoduje drukowanie tekstu w tej samej linijce.
 
-Warto pamiętać, że znak nowej linii, albo do łańcuch podany jako `end` będzie wydrukowany zawsze — nawet gdy nie zostanie podany żaden argument. Zatem wywołanie `print()` spowoduje po prostu przejście do nowej linii.
+Warto pamiętać, że znak nowej linii, albo do łańcuch podany jako `end` będzie wydrukowany zawsze — nawet gdy nie zostanie podany żaden argument. Zatem wywołanie `print()` spowoduje po prostu przejście do nowej linii.
 
 ## Wprowadzanie danych z klawiatury
 
@@ -66,7 +66,7 @@ Znacznie lepiej wygląda:
 
 ```python
 # Wprowadzanie danych  
-centymetry = float(input("Podaj długość w centymetrach: "))  
+centymetry = float(input("Podaj długość w centymetrach: "))  
   
 # Część obliczeniowa  
 cale = 2.54 * centymetry  

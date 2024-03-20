@@ -8,7 +8,7 @@ nav_order:  1
 
 ## Stałe
 
-Stałe wartości, takie jak cyfry, litery i ciągi znaków (stringi), nazywane są „stałymi”, ponieważ ich wartość się nie zmienia. W Pythonie stałe mogą być następujących typów:
+Stałe wartości, takie jak cyfry, litery i ciągi znaków (stringi), nazywane są „stałymi”, ponieważ ich wartość się nie zmienia. W Pythonie stałe mogą być następujących typów:
 
 ### Typy liczbowe
 
@@ -23,7 +23,7 @@ Stałe wartości, takie jak cyfry, litery i ciągi znaków (stringi), nazywane s
 Ciągi znaków umieszczone pomiędzy jednym z następujących zestawów cudzysłowów:
 
 * pojedynczy cudzysłów: `'...'`,
-* podwójny cudzysłów: `"..."`,
+* podwójny cudzysłów: `"..."`,
 * pojedynczy lub podwójny cudzysłów powtórzony trzykrotnie: `'''...'''`, lub `"""..."""`.
 
 W ostatnim przypadku tekst może rozciągać się na kilka linijek. W dwóch pierwszych jest to niedozwolone, jednakże znaki nowej linii można wstawiać używając symbolu specjalnego \\n.
@@ -62,7 +62,7 @@ Więcej o zastosowaniu krotek i sposobach wydobycia ich poszczególnych element�
 
 ## Operacje na wartościach
 
-Na obsługiwanych przez Pythona wartościach można wykonywać działania za pomocą operatorów matematycznych. Podstawowymi operatorami są `+`, `\-`, `*` (mnożenie), `/` (dzielenie), `**` (potęgowanie), `//` (dzielenie całkowite), `%` (reszta z dzielenia). Python potrafi wykonywać działania zgodnie z obowiązującymi regułami matematycznymi (dozwolone jest stosowanie nawiasów okrągłych). Aby się z nimi zapoznać, proszę uruchomić notatnik Jupytera i wpisać w nim w oddzielnych komórkach następujące wyrażenia (nie jest konieczne stosowanie funkcji print — Jupyter samoczynnie wypisze wynik obliczonego wyrażenia):
+Na obsługiwanych przez Pythona wartościach można wykonywać działania za pomocą operatorów matematycznych. Podstawowymi operatorami są `+`, `\-`, `*` (mnożenie), `/` (dzielenie), `**` (potęgowanie), `//` (dzielenie całkowite), `%` (reszta z dzielenia). Python potrafi wykonywać działania zgodnie z obowiązującymi regułami matematycznymi (dozwolone jest stosowanie nawiasów okrągłych). Aby się z nimi zapoznać, proszę uruchomić notatnik Jupytera i wpisać w nim w oddzielnych komórkach następujące wyrażenia (nie jest konieczne stosowanie funkcji print — Jupyter samoczynnie wypisze wynik obliczonego wyrażenia):
 
 ```python
 1 + 2  
@@ -102,9 +102,9 @@ Proponuję także samodzielnie popróbować wykorzystanie tej interaktywnej pow�
 
 Kilka powyższych przykładów wymaga szczegółowego omówienia. Operator dzielenia (`/`) zastosowany dla liczb rzeczywistych lub całkowitych zawsze zwróci wynik rzeczywisty (nawet jeśli wynikiem jest liczba całkowita). Z kolei operator dzielenia całkowitego (`//`) usunie część ułamkową — z tego powodu w zastosowaniach inżynierskich i naukowych ma on ograniczone zastosowanie.
 
-Operator potęgowania (`**`) potrafi podnosić także do potęgi niecałkowitej. W związku z tym `(-1)**0.5` zostało potraktowane jako pierwiastek główny z –1, czyli jednostka urojona. Została ona wypisana jako `(0+1j)`, lub coś w stylu `(6.123233995736766e-17+1j)`. Nie należy się tym przerażać — zgodnie z opisaną wcześniej notacją wykładniczą, część rzeczywista tej liczby jest rzędu 10<sup>-17</sup>, czyli praktycznie 0. Zmiennoprzecinkowe obliczenia komputerowe nie są 100% dokładne, stąd taki a nie inny wynik (dokładność obliczeń jest osobnym zagadnieniem, na które trzeba zwracać uwagę pisząc programy obliczeniowe, jednak na obecnym etapie nie będziemy się nim zajmować).
+Operator potęgowania (`**`) potrafi podnosić także do potęgi niecałkowitej. W związku z tym `(-1)**0.5` zostało potraktowane jako pierwiastek główny z –1, czyli jednostka urojona. Została ona wypisana jako `(0+1j)`, lub coś w stylu `(6.123233995736766e-17+1j)`. Nie należy się tym przerażać — zgodnie z opisaną wcześniej notacją wykładniczą, część rzeczywista tej liczby jest rzędu 10<sup>-17</sup>, czyli praktycznie 0. Zmiennoprzecinkowe obliczenia komputerowe nie są 100% dokładne, stąd taki a nie inny wynik (dokładność obliczeń jest osobnym zagadnieniem, na które trzeba zwracać uwagę pisząc programy obliczeniowe, jednak na obecnym etapie nie będziemy się nim zajmować).
 
-Dobrym zwyczajem jest pisanie znaków spacji dookoła operatorów matematycznych, gdyż znacznie zwiększa to czytelność kodu (oczywiście nie jest to wymóg formalny, ale nagminne pomijanie spacji powoduje, że bardzo ciężko analizuje się program, szczególnie gdy jest on napisany przez kogoś innego).
+Dobrym zwyczajem jest pisanie znaków spacji dookoła operatorów matematycznych, gdyż znacznie zwiększa to czytelność kodu (oczywiście nie jest to wymóg formalny, ale nagminne pomijanie spacji powoduje, że bardzo ciężko analizuje się program, szczególnie gdy jest on napisany przez kogoś innego).
 
 Python potrafi wykonywać działania także na typach nieliczbowych o ile mają one sens. Dodawanie do siebie łańcuchów tekstowych lub krotek powoduje ich połączenie, zaś pomnożenie przez liczbę całkowitą — powtórzenie ich zawartości daną ilość razy.
 

@@ -20,13 +20,13 @@ Przykładem może być moduł [`random`](https://docs.python.org/3/library/rando
 import random
 ```
 
-Komenda ta nie powoduje, że wszystkie funkcje i obiekty zdefiniowane w tym module staną się bezpośrednio dostępne. Aby się do nich dostać trzeba użyć notacji `nazwa_modułu.funkcja(...)`. Np. aby wygenerować liczbą losową z zakresu \[ _a_, _b_\] możemy użyć funkcji `uniform` z modułu `random`:
+Komenda ta nie powoduje, że wszystkie funkcje i obiekty zdefiniowane w tym module staną się bezpośrednio dostępne. Aby się do nich dostać trzeba użyć notacji `nazwa_modułu.funkcja(...)`. Np. aby wygenerować liczbą losową z zakresu \[ _a_, _b_\] możemy użyć funkcji `uniform` z modułu `random`:
 
 ```python
 liczba_losowa = random.uniform(-1, 1)
 ```
 
-Pełną listę wbudowanych modułów oraz funkcji Pythona można znaleźć w [dokumentacji](https://docs.python.org/3/library/index.html). W szczególności warto przejrzeć opisy modułów [`sys`](https://docs.python.org/3/library/sys.html) oraz [`os`](https://docs.python.org/3/library/os.html), który zawierają zbiór podstawowych funkcji i obiektów do korzystania z narzędzi systemu operacyjnego. Np. można sprawdzić aktualną wersję Pythona za pomocą:
+Pełną listę wbudowanych modułów oraz funkcji Pythona można znaleźć w [dokumentacji](https://docs.python.org/3/library/index.html). W szczególności warto przejrzeć opisy modułów [`sys`](https://docs.python.org/3/library/sys.html) oraz [`os`](https://docs.python.org/3/library/os.html), który zawierają zbiór podstawowych funkcji i obiektów do korzystania z narzędzi systemu operacyjnego. Np. można sprawdzić aktualną wersję Pythona za pomocą:
 
 ```python
 import sys
@@ -36,7 +36,7 @@ print(sys.version)
 
 W tym przypadku `sys.version` nie jest funkcją, ale po prostu łańcuchem znaków. Niemniej jest to obiekt zdefiniowany wewnątrz modułu.
 
-Moduły mogą zawierać wewnątrz inne modułu zagnieżdżone w sposób hierarchiczny — dowolny moduł może zawierać moduły podrzędne (moduły nadrzędne nazywane wtedy są _paczkami_). Aby zaimportować wybrany moduł podrzędny należy użyć komendy `import moduł_nadrzędny.moduł_podrzędny`. Poziomów zagnieżdżenia może być dowolnie wiele — w takim przypadku należy je wpisać wszystkie oddzielając kolejne poziomy kropką. Użyteczne funkcje i obiekty mogą znajdować się zarówno w module nadrzędnym jak i w modułach podrzędnych. Moduły podrzędne stosowane są po to aby zgrupować zbiór funkcji. Na przykład moduł [`os`](https://docs.python.org/3/library/os.html) zawiera funkcje pozwalające wykonywać różne operacje na plikach na dysku, zaś moduł [`os.path`](https://docs.python.org/3/library/os.path.html#module-os.path) — zbiera funkcje pozwalające na manipulację ścieżką do pliku:
+Moduły mogą zawierać wewnątrz inne modułu zagnieżdżone w sposób hierarchiczny — dowolny moduł może zawierać moduły podrzędne (moduły nadrzędne nazywane wtedy są _paczkami_). Aby zaimportować wybrany moduł podrzędny należy użyć komendy `import moduł_nadrzędny.moduł_podrzędny`. Poziomów zagnieżdżenia może być dowolnie wiele — w takim przypadku należy je wpisać wszystkie oddzielając kolejne poziomy kropką. Użyteczne funkcje i obiekty mogą znajdować się zarówno w module nadrzędnym jak i w modułach podrzędnych. Moduły podrzędne stosowane są po to aby zgrupować zbiór funkcji. Na przykład moduł [`os`](https://docs.python.org/3/library/os.html) zawiera funkcje pozwalające wykonywać różne operacje na plikach na dysku, zaś moduł [`os.path`](https://docs.python.org/3/library/os.path.html#module-os.path) — zbiera funkcje pozwalające na manipulację ścieżką do pliku:
 
 ```python
 import os.path
@@ -46,13 +46,13 @@ print(os.path.join('katalog', 'plik.txt'))
 
 ## Uproszczone wczytywanie modułów
 
-Fakt, że komenda **`import`** definiuje tylko nazwę modułu pozwala zachować porządek w kodzie programu. W szczególności nie ma problemu, by w w kilku modułach znajdowały się funkcje o takich samych nazwach — ponieważ ich użycie wymaga podania nazwy modułu przed kropką, nie będzie pomiędzy nimi kolizji. Czasami jednak — szczególnie w przypadku modułów zagnieżdżonych — może to być uciążliwe (np. kiedy konieczne jest częste pisanie `modulA.modulB.modulC.funkcja1()`, `modulA.modulB.modulC.funkcja2()` itd.). Istnieją dwie metody aby sobie z tym poradzić. Pierwsza polega na zaimportowaniu dowolnego modułu (także zagnieżdżonego) pod własną nazwą. Służy do tego słowo kluczowe **`as`**:
+Fakt, że komenda **`import`** definiuje tylko nazwę modułu pozwala zachować porządek w kodzie programu. W szczególności nie ma problemu, by w w kilku modułach znajdowały się funkcje o takich samych nazwach — ponieważ ich użycie wymaga podania nazwy modułu przed kropką, nie będzie pomiędzy nimi kolizji. Czasami jednak — szczególnie w przypadku modułów zagnieżdżonych — może to być uciążliwe (np. kiedy konieczne jest częste pisanie `modulA.modulB.modulC.funkcja1()`, `modulA.modulB.modulC.funkcja2()` itd.). Istnieją dwie metody aby sobie z tym poradzić. Pierwsza polega na zaimportowaniu dowolnego modułu (także zagnieżdżonego) pod własną nazwą. Służy do tego słowo kluczowe **`as`**:
 
 ```python
 import modulA.modulB.modulC as mc
 ```
 
-Wtedy zamiast `modulA.modulB.modulC.funkcja1()` możemy napisać po prostu `mc.funkcja1()`, co jest znacznie krótsze. Np.
+Wtedy zamiast `modulA.modulB.modulC.funkcja1()` możemy napisać po prostu `mc.funkcja1()`, co jest znacznie krótsze. Np.
 
 ```python
 import os.path as p
@@ -68,7 +68,7 @@ Druga metoda pozwala na bezpośrednie wczytywanie wybranych funkcji i innych obi
 from nazwa_modułu import funkcja
 ```
 
-`nazwa_modułu` może mieć postać `moduł_nadrzędny.moduł_podrzędny`, tak jak we wcześniej opisanych przypadkach ilość importowanych funkcji może być dowolna — gdy jest więcej niż jedna, powinny one być oddzielone przecinkiem. Zaimportowane w ten sposób funkcje możemy używać bezpośrednio. Na przykład:
+`nazwa_modułu` może mieć postać `moduł_nadrzędny.moduł_podrzędny`, tak jak we wcześniej opisanych przypadkach ilość importowanych funkcji może być dowolna — gdy jest więcej niż jedna, powinny one być oddzielone przecinkiem. Zaimportowane w ten sposób funkcje możemy używać bezpośrednio. Na przykład:
 
 ```python
 from numpy import pi, sin, cos

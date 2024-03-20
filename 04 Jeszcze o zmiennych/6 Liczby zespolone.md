@@ -12,7 +12,7 @@ W Pythonie występuje natywnie typ reprezentujacy liczby zespolone ( `complex`).
 zespolona = 1 + 0.2j
 ```
 
-Na tym typie można prowadzić normalnie obliczenia, wypisywać na ekran itp. Co jednak w sytuacji, gdy chcemy wyciągnąć z liczby zespolonej tylko część rzeczywistą, bądź urojoną? W tym celu stosujemy _atrybuty_ `real` oraz `imag`. Atrybuty są podobne do _metod_ — stosuje się je podając ich nazwy po kropce `zmienna.atrybut`, ale bez nawiasów. Na przykład:
+Na tym typie można prowadzić normalnie obliczenia, wypisywać na ekran itp. Co jednak w sytuacji, gdy chcemy wyciągnąć z liczby zespolonej tylko część rzeczywistą, bądź urojoną? W tym celu stosujemy _atrybuty_ `real` oraz `imag`. Atrybuty są podobne do _metod_ — stosuje się je podając ich nazwy po kropce `zmienna.atrybut`, ale bez nawiasów. Na przykład:
 
 ```python
 zespolona = 1 + 0.2j

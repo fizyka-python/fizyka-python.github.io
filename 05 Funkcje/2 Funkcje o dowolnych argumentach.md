@@ -16,10 +16,10 @@ def funkcja1(*args):
 Wywołując tę funkcję można podać dowolną ilość argumentów pozycyjnych. Wewnątrz funkcji argument `args` będzie **krotką** zawierającą wszystkie podane argumenty. Np.:
 
 ```python
-funkcja1(1, 2, 3)    # (1, 2, 3)
+funkcja1(1, 2, 3)    # (1, 2, 3)
 ```
 
-W analogiczny sposób funkcja może przyjąć dowolną ilość argumentów podanych przez nazwę. W tym celu, definiując ją podajemy specjalny argument `**kwargs` (istotne są dwie gwiazdki `**`, nazwa _kwargs_ jest zwyczajowa):
+W analogiczny sposób funkcja może przyjąć dowolną ilość argumentów podanych przez nazwę. W tym celu, definiując ją podajemy specjalny argument `**kwargs` (istotne są dwie gwiazdki `**`, nazwa _kwargs_ jest zwyczajowa):
 
 ```python
 def funkcja2(**kwargs):
@@ -27,10 +27,10 @@ def funkcja2(**kwargs):
 
 ```
 
-Wywołując tę funkcję można podać dowolną ilość argumentów o dowolnej nazwie. Wewnątrz funkcji argument `kwargs` będzie **słownikiem** zawierającą wszystkie podane argumenty. Np.:
+Wywołując tę funkcję można podać dowolną ilość argumentów o dowolnej nazwie. Wewnątrz funkcji argument `kwargs` będzie **słownikiem** zawierającą wszystkie podane argumenty. Np.:
 
 ```python
-funkcja2(a=1, b=2, c=3)    # {'a': 1, 'b': 2, 'c: 3}
+funkcja2(a=1, b=2, c=3)    # {'a': 1, 'b': 2, 'c: 3}
 ```
 
 Najczęściej stosuje się oba rodzaje argumentów jednocześnie:
@@ -40,13 +40,13 @@ def funkcja3(*args, **kwargs):
     print(args, kwargs)
 ```
 
-Wtedy funkcję taką można wywoływać z dowolnymi argumentami pozycyjnymi oraz podanymi przez nazwę — zostaną one odpowiednio przypisane do krotki `args` i słownika `kwargs`. Np.:
+Wtedy funkcję taką można wywoływać z dowolnymi argumentami pozycyjnymi oraz podanymi przez nazwę — zostaną one odpowiednio przypisane do krotki `args` i słownika `kwargs`. Np.:
 
 ```python
-funkcja3(1, 2, a=3, b=4)    # (1, 2) {'a': 3, 'b': 4}
+funkcja3(1, 2, a=3, b=4)    # (1, 2) {'a': 3, 'b': 4}
 ```
 
-Argumenty specjalne `*args` i `**kwargs` można łączyć z normalnymi argumentami. Wtedy `args` i `kwargs` będą zawierały tylko odpowiednie wartości niepodane na liście argumentów:
+Argumenty specjalne `*args` i `**kwargs` można łączyć z normalnymi argumentami. Wtedy `args` i `kwargs` będą zawierały tylko odpowiednie wartości niepodane na liście argumentów:
 
 ```python
 def funkcja4(x, y, *args, **kwargs):
@@ -56,14 +56,14 @@ def funkcja4(x, y, *args, **kwargs):
 Przykłady wywołania:
 
 ```python
-funkcja4(1, 2, a=3, b=4)    # 1 2 () {'a': 3, 'b': 4}
+funkcja4(1, 2, a=3, b=4)    # 1 2 () {'a': 3, 'b': 4}
 
-funkcja4(1, y=2, a=3, b=4)  # 1 2 () {'a': 3, 'b': 4}
+funkcja4(1, y=2, a=3, b=4)  # 1 2 () {'a': 3, 'b': 4}
 
-funkcja4(1, 2, 3, a=4)      # 1 2 (3,) {'a': 4}
+funkcja4(1, 2, 3, a=4)      # 1 2 (3,) {'a': 4}
 ```
 
-Ciekawym przypadkiem jest umieszczenie normalnych argumentów po `**args`. Wtedy te parametry mogą być przekazane wyłącznie przez nazwę. Zasadne jest wtedy stosowanie wartości domyślnych. Np.:
+Ciekawym przypadkiem jest umieszczenie normalnych argumentów po `**args`. Wtedy te parametry mogą być przekazane wyłącznie przez nazwę. Zasadne jest wtedy stosowanie wartości domyślnych. Np.:
 
 ```python
 def funkcja5(*args, x=None, y=None, **kwargs):
@@ -73,14 +73,14 @@ def funkcja5(*args, x=None, y=None, **kwargs):
 Przykłady wywołania:
 
 ```python
-funkcja4(1, 2, a=3, b=4)            # None None (1, 2) {'a': 3, 'b': 4}
+funkcja4(1, 2, a=3, b=4)            # None None (1, 2) {'a': 3, 'b': 4}
 
-funkcja4(1, 2, x=3, y=4, a=5, b=6)  # 3 4 (1, 2) {'a': 5, 'b': 6}
+funkcja4(1, 2, x=3, y=4, a=5, b=6)  # 3 4 (1, 2) {'a': 5, 'b': 6}
 
-funkcja4(1, 2, 3 y=4)               # None 4 (1, 2, 3) {}
+funkcja4(1, 2, 3 y=4)               # None 4 (1, 2, 3) {}
 ```
 
-Przykładem funkcji wykorzystującej to jest `print`. Jej definicja wygląda następująco:
+Przykładem funkcji wykorzystującej to jest `print`. Jej definicja wygląda następująco:
 
 ```python
 def print(*args, sep=' ', end='\n', file=sys.stdout, flush=False):
