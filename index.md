@@ -59,11 +59,11 @@ has_toc: false
 * [Korzystanie z modułów Pythona](06%20Moduly/1%20Korzystanie%20z%20modulow%20Pythona)
 * [Tworzenie własnych modułów](06%20Moduly/2%20Tworzenie%20wlasnych%20modulow)
 
-## Exceptions
+## Wyjątki
 
-* [Error Messages](07%20Exceptions/1%20Error%20Messages)
-* [Catching exceptions](07%20Exceptions/2%20Catching%20exceptions)
-* [Raising exceptions](07%20Exceptions/3%20Raising%20exceptions)
+* [Komunikaty błędów](07%20Wyjatki/1%20Komunikaty%20bledow)
+* [Przechwytywanie wyjątków](07%20Wyjatki/2%20Przechwytywanie%20wyjatkow)
+* [Zgłaszanie wyjątków](07%20Wyjatki/3%20Zglaszanie%20wyjatkow)
 
 ## File Operations
 
