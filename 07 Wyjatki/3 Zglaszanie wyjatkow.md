@@ -1,5 +1,5 @@
 ---
-parent: Exceptions
+parent: Wyjątki
 grand_parent: Technologie Informatyczne II
 nav_order:  3
 ---

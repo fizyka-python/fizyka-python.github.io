@@ -157,9 +157,11 @@ print("-" * szer)
 
 Aby wstawić do łańcucha formatującego nawias klamrowy, który ma być potraktowany jako część tekstu, a nie początek wyrażenia, należy go powtórzyć:
 
+{% raw %}
 ```python
 f"To jest nawias klamrowy {{2 + 2}}, a to wyrażenie w nawiasie klamrowym {{{2 + 2}}}"
 ```
+{% endraw %}
 
 W powyższym tekście wyrażenie zaznaczone na czerwono zostanie obliczone, zaś powtórzone nawiasy klamrowe pojawią się tylko raz.
 

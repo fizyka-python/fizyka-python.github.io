@@ -1,5 +1,5 @@
 ---
-parent: Constants, Variables and Basic Operations
+parent: Stałe, zmienne i podstawowe operacje na nich
 grand_parent: Technologie Informatyczne II
 nav_order:  2
 ---

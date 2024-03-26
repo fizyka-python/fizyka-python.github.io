@@ -1,5 +1,5 @@
 ---
-parent: Flow Control
+parent: Kontrola wykonywanych działań
 grand_parent: Technologie Informatyczne II
 nav_order:  3
 ---
