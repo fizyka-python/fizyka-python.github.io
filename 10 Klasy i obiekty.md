@@ -1,7 +1,7 @@
 ---
 parent: Technologie Informatyczne II
 has_children: true
-nav_order:  9
+nav_order:  10
 ---
 
-# Classes and Objects: Basis
+# Klasy i obiekty

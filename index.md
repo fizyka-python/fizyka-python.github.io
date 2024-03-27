@@ -80,10 +80,10 @@ has_toc: false
 * [Matplotlib — eleganckie wykresy](09%20Tablice%20numeryczne%20i%20tworzenie%20wykresow/2%20Matplotlib%20-%20eleganckie%20wykresy)
 * Ćwiczenie: [Bilard na kółku](https://github.com/fizyka-python/bilard)
 
-## Classes and Objects
+## Klasy i obiekty
 
-* [A Problem](09%20Classes%20and%20Objects%20Basis/1%20A%20problem)
-* [Classes and objects](09%20Classes%20and%20Objects%20Basis/2%20Classes%20and%20objects)
-* [Custom data types](09%20Classes%20and%20Objects%20Basis/3%20Custom%20data%20types)
-* [Special methods](11%20Classes%20and%20Objects%20Intermediate/1%20Special%20methods)
+* [Problem](10%20Klasy%20i%20obiekty/1%20Problem)
+* [Klasy i obiekty](10%20Klasy%20i%20obiekty/2%20Klasy%20i%20obiekty)
+* [Własne typy danych](10%20Klasy%20i%20obiekty/3%20Wlasne%20typy%20danych)
+* [Metody specjalne](10%20Klasy%20i%20obiekty/4%20Metody%20specjalne)
 * Exercise: [Fractions](https://github.com/mds-python/fractions)
