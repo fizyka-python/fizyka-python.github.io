@@ -73,27 +73,17 @@ has_toc: false
 * [Zapisywanie i odczytywanie obiektów Pythona](08%20Operacje%20na%20plikach/4%20Zapisywanie%20i%20odczytywanie%20obiektow%20Pythona)
 * Ćwiczenie: [Verification](https://github.com/mds-python/verification)
 
-## Classes and Objects: Basis
+## Tablice numeryczne i wizualizacja danych
+
+* [NumPy - rachunki numeryczne na tablicach liczb](09%20Tablice%20numeryczne%20i%20tworzenie%20wykresow/1%20NumPy%20-%20rachunki%20numeryczne%20na%20tablicach%20liczb)
+* Ćwiczenie: [NumPy](https://github.com/fizyka-python/numpy)
+* [Matplotlib — eleganckie wykresy](09%20Tablice%20numeryczne%20i%20tworzenie%20wykresow/2%20Matplotlib%20-%20eleganckie%20wykresy)
+* Ćwiczenie: [Bilard na kółku](https://github.com/fizyka-python/bilard)
+
+## Classes and Objects
 
 * [A Problem](09%20Classes%20and%20Objects%20Basis/1%20A%20problem)
 * [Classes and objects](09%20Classes%20and%20Objects%20Basis/2%20Classes%20and%20objects)
 * [Custom data types](09%20Classes%20and%20Objects%20Basis/3%20Custom%20data%20types)
-
-Project 1: [Hangman](https://github.com/mds-python/hangman)
-
-## Numeric Arrays and Data Visualization
-
-* [NumPy: numeric arrays and calculations](10%20Numeric%20Arrays%20and%20Data%20Visualization/1%20NumPy%20-%20numeric%20arrays%20and%20calculations)
-* Exercise: [NumPy](https://github.com/mds-python/numpy)
-* [Matplotlib: data visualization](10%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib%20-%20data%20visualization)
-* Exercise [Billiards](https://github.com/mds-python/billiards)
-
-## Classes and Objects: Intermediate
-
 * [Special methods](11%20Classes%20and%20Objects%20Intermediate/1%20Special%20methods)
 * Exercise: [Fractions](https://github.com/mds-python/fractions)
-* [Class inheritance](11%20Classes%20and%20Objects%20Intermediate/2%20Class%20inheritance)
-
-Project 2: [Game of Life](https://github.com/mds-python/game-of-life)
-
-Project 3: [COVID Simulator](https://github.com/mds-python/covid)

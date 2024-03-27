@@ -1,7 +1,7 @@
 ---
 parent: Technologie Informatyczne II
 has_children: true
-nav_order:  8
+nav_order:  9
 ---
 
-# File Operations
+# Tablice numeryczne i tworzenie wykresów
