@@ -65,13 +65,13 @@ has_toc: false
 * [Przechwytywanie wyjątków](07%20Wyjatki/2%20Przechwytywanie%20wyjatkow)
 * [Zgłaszanie wyjątków](07%20Wyjatki/3%20Zglaszanie%20wyjatkow)
 
-## File Operations
+## Operacje na plikach
 
-* [Opening files](08%20File%20Operations/1%20Opening%20files)
-* [Writing to a file](08%20File%20Operations/2%20Writing%20to%20a%20file)
-* [Reading from a file](08%20File%20Operations/3%20Reading%20from%20a%20file)
-* [Saving and loading Python objects](08%20File%20Operations/4%20Saving%20and%20loading%20Python%20objects)
-* Exercise: [Verification](https://github.com/mds-python/verification)
+* [Otwieranie plików](08%20Operacje%20na%20plikach/1%20Otwieranie%20plikow)
+* [Zapisywanie do pliku](08%20Operacje%20na%20plikach/2%20Zapisywanie%20do%20pliku)
+* [Odczytywanie z pliku](08%20Operacje%20na%20plikach/3%20Odczytywanie%20z%20pliku)
+* [Zapisywanie i odczytywanie obiektów Pythona](08%20Operacje%20na%20plikach/4%20Zapisywanie%20i%20odczytywanie%20obiektow%20Pythona)
+* Ćwiczenie: [Verification](https://github.com/mds-python/verification)
 
 ## Classes and Objects: Basis
 

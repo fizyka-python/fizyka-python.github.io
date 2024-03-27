@@ -20,13 +20,23 @@
             }
         },
         {
-            "label": "Make HTML",
+            "label": "Utwórz HTML",
             "type": "shell",
-            "command": "sed -f html.sed '${file}'",
+            "command": "sed -f html.sed '${file}' | xsel -b && echo 'HTML został skopiowany do schowka.\n'",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
-        }
+        },
+        {
+            "label": "Utwórz Markdown",
+            "type": "shell",
+            "command": "xsel -b | html2md -i | xsel -b && echo 'Markdown został skopiowany do schowka.\n'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        
     ]
 }
