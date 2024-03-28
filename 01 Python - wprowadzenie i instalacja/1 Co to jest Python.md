@@ -3,9 +3,10 @@ parent: Python — wprowadzenie i instalacja
 grand_parent: Technologie Informatyczne II
 nav_order:  1
 ---
+
 # Co to jest Python?
 
-PPython to język skryptowy, co w jego przypadku oznacza możliwość interakcji z użytkownikiem i bardzo rozbudowane funkcjonalności. Języki skryptowe odróżniają się od innych tym, że do uruchomienia skryptu nie wystarczy on sam, potrzebna jest jeszcze aplikacja, nazywana interpreterem, która potrafi ten skrypt uruchomić. Za to nie musimy tych programów kompilować i zawsze możemy zobaczyć ich kod źródłowy.
+Python to język skryptowy, co w jego przypadku oznacza możliwość interakcji z użytkownikiem i bardzo rozbudowane funkcjonalności. Języki skryptowe odróżniają się od innych tym, że do uruchomienia skryptu nie wystarczy on sam, potrzebna jest jeszcze aplikacja, nazywana interpreterem, która potrafi ten skrypt uruchomić. Za to nie musimy tych programów kompilować i zawsze możemy zobaczyć ich kod źródłowy.
 
 ## Czemu Python?
 

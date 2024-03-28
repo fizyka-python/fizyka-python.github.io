@@ -13,7 +13,7 @@ Ważnym czynnikiem programów komputerowych napisanych w języku formalnym jest 
 3. Podejdź do *drugiego okna*.
 4. Jeśli *drugie okno* jest otwarte, zamknij *drugie okno*.
 
-Dzielenie pojedynczego zadania zamknięcia okna na sekwencję bardziej precyzyjnych instrukcji nazywane jest podejściem **top-down**. Poniżej przeanalizujemy więcej problemów w ten sposób. Aby skupić się na operacjach, a nie na notacji, nie będziemy używać języka formalnego. Będziemy jednak trzymać się jednej prostej zasady: **nie używamy przyimków**. Zauważcie, że w powyższym przykładzie nie użyliśmy przyimka „*to*”, lecz zastosowaliśmy zamiast tego jawne nazwy *pierwsze okno* i *drugie okno*. Jeśli musimy operować na danych, których nie znamy w momencie pisania algorytmu (co zdarza się częściej niż rzadziej), używamy **etykiet**.
+Dzielenie pojedynczego zadania zamknięcia okna na sekwencję bardziej precyzyjnych instrukcji nazywane jest podejściem **top-down**. Poniżej przeanalizujemy więcej problemów w ten sposób. Aby skupić się na operacjach, a nie na notacji, nie będziemy używać języka formalnego. Będziemy jednak trzymać się jednej prostej zasady: **nie używamy zaimków**. Zauważcie, że w powyższym przykładzie nie użyliśmy zaimka „*to*”, lecz zastosowaliśmy zamiast tego jawne nazwy *pierwsze okno* i *drugie okno*. Jeśli musimy operować na danych, których nie znamy w momencie pisania algorytmu (co zdarza się częściej niż rzadziej), używamy **etykiet**.
 
 Aby to zilustrować, napiszmy algorytm *top-down*, który oblicza pole prostokąta. Aby to zrobić, musimy określić, jakich danych potrzebujemy na początku (nasze **wejście**) i jaki wynik powinien zostać wygenerowany (co jest **wyjściem** algorytmu).
 
@@ -49,12 +49,12 @@ WYNIK:
 
 To, co widzicie powyżej, to przepis. Zawiera on dwa proste kroki. Spróbujcie go prześledzić i zobaczyć, jak zmieniają się oznaczone wartości:
 
-| KROK                    | *x*₁  | *x*₂  | *total* | *average* | WYNIK |
-| ----------------------- | ----- | ----- | ------- | --------- | ----- |
-| **WEJŚCIE**             | **2** | **4** |         |           |       |
-| *suma* = *x*₁ + *x*₂.   | 2     | 4     | 6       |           |       |
-| *średnia* = *suma* / 2. | 2     | 4     | 6       | 3         |       |
-| **WYNIK**               | 2     | 4     | 6       | 3         | **3** |
+| KROK                    | *x*₁  | *x*₂  | *suma* | *średnia* | WYNIK |
+| ----------------------- | ----- | ----- | ------ | --------- | ----- |
+| **WEJŚCIE**             | **2** | **4** |        |           |       |
+| *suma* = *x*₁ + *x*₂.   | 2     | 4     | 6      |           |       |
+| *średnia* = *suma* / 2. | 2     | 4     | 6      | 3         |       |
+| **WYNIK**               | 2     | 4     | 6      | 3         | **3** |
 
 Teraz coś bardziej skomplikowanego: weźmy dwie liczby i określmy, jaka jest wartość większej z nich:
 
@@ -81,12 +81,12 @@ Prześledźmy to dla przykładowych danych:
 
 Jak to będzie wyglądać dla innych danych?
 
-| KROK                         | *x*₁  | *x*₂  | *larger* | WYNIK |
-| ---------------------------- | ----- | ----- | -------- | ----- |
-| **WEJŚCIE**                  | **2** | **3** |          |       |
-| sprawdzanie, czy *x*₁ > *x*₂ | 2     | 3     |          | nie   |
-| *większa* = *x*₂             | 2     | 3     | 3        |       |
-| **WYJŚCIE**                  | 2     | 3     | 3        | **3** |
+| KROK                         | *x*₁  | *x*₂  | *większa* | WYNIK |
+| ---------------------------- | ----- | ----- | --------- | ----- |
+| **WEJŚCIE**                  | **2** | **3** |           |       |
+| sprawdzanie, czy *x*₁ > *x*₂ | 2     | 3     |           | nie   |
+| *większa* = *x*₂             | 2     | 3     | 3         |       |
+| **WYJŚCIE**                  | 2     | 3     | 3         | **3** |
 
 Powyższy algorytm nie został wykonany liniowo (po kolei). W zależności od jakiegoś warunku wykonywana była jedna lub druga operacja. Nazywa się to *warunkiem*.
 
@@ -134,26 +134,26 @@ Algorytm wygląda więc dobrze... Prześledźmy go dla kilku danych:
 
 Rozwiązanie *x*² + 2 *x* - 8 = 0:
 
-| KROK                           | *a*   | *b*   | *c*    | *Δ* | *x*₁ | *x*₂ | WYNIK         |     |
-| ------------------------------ | ----- | ----- | ------ | --- | ---- | ---- | ------------- | --- |
-| **WEJŚCIE**                    | **1** | **2** | **-8** |     |      |      |               |     |
-| *Δ* = *b*² - 4×*a*×*c*         | 1     | 2     | -8     | 36  |      |      |               |     |
-| Sprawdzanie, czy *Δ* > 0       | 1     | 2     | -8     | 36  |      |      | tak           |     |
-| *x*₁ = (-*b* - √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4   |      |               |     |
-| *x*₂ = (-*b* + √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4   | 2    |               |     |
-| **WYJŚCIE**                    | 1     | 2     | -8     | 36  | -4   | 2    | **-4**, **2** |     |
+| KROK                           | *a*   | *b*   | *c*    | *Δ* | *x*₁ | *x*₂ | WYNIK         |
+| ------------------------------ | ----- | ----- | ------ | --- | ---- | ---- | ------------- |
+| **WEJŚCIE**                    | **1** | **2** | **-8** |     |      |      |               |
+| *Δ* = *b*² - 4×*a*×*c*         | 1     | 2     | -8     | 36  |      |      |               |
+| Sprawdzanie, czy *Δ* > 0       | 1     | 2     | -8     | 36  |      |      | tak           |
+| *x*₁ = (-*b* - √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4   |      |               |
+| *x*₂ = (-*b* + √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4   | 2    |               |
+| **WYJŚCIE**                    | 1     | 2     | -8     | 36  | -4   | 2    | **-4**, **2** |
 
 Rozwiązanie *x*² - 2 *x* + 1 = 0:
 
-| KROK                     | *a*   | *b*    | *c*   | *Δ* | *x*₁ | *x*₂ | WYNIK            |
-| ------------------------ | ----- | ------ | ----- | --- | ---- | ---- | ---------------- |
-| **WEJŚCIE**              | **1** | **-2** | **1** |     |      |      |                  |
-| *Δ* = *b*² - 4×*a*×*c*   | 1     | -2     | 1     | 0   |      |      |                  |
-| sprawdzanie, czy *Δ* > 0 | 1     | -2     | 1     | 0   |      |      | nie              |
-| Sprawdzenie, czy *Δ* = 0 | 1     | -2     | 1     | 0   |      |      | tak              |
-| *x*₁ = -*b* / (2×*a*)    | 1     | -2     | 1     | 0   | 1    |      |                  |
-| *x*₂ nie istnieje        | 1     | -2     | 1     | 0   | 1    | brak |                  |
-| **WYJŚCIE**              | 1     | -2     | 1     | 0   | 1    | brak | **-4**, **brak** |
+| KROK                     | *a*   | *b*    | *c*   | *Δ* | *x*₁ | *x*₂ | WYNIK           |
+| ------------------------ | ----- | ------ | ----- | --- | ---- | ---- | --------------- |
+| **WEJŚCIE**              | **1** | **-2** | **1** |     |      |      |                 |
+| *Δ* = *b*² - 4×*a*×*c*   | 1     | -2     | 1     | 0   |      |      |                 |
+| sprawdzanie, czy *Δ* > 0 | 1     | -2     | 1     | 0   |      |      | nie             |
+| Sprawdzenie, czy *Δ* = 0 | 1     | -2     | 1     | 0   |      |      | tak             |
+| *x*₁ = -*b* / (2×*a*)    | 1     | -2     | 1     | 0   | 1    |      |                 |
+| *x*₂ nie istnieje        | 1     | -2     | 1     | 0   | 1    | brak |                 |
+| **WYJŚCIE**              | 1     | -2     | 1     | 0   | 1    | brak | **1**, **brak** |
 
 Rozwiązanie *x*² + 2 *x* + 3 = 0:
 
@@ -168,12 +168,12 @@ Rozwiązanie *x*² + 2 *x* + 3 = 0:
 
 Rozważmy inny przypadek: *a* = 0, *b* = 2, *c* = 3:
 
-| KROK                     | *a*                            | *b*   | *c*   | *Δ* | *x*₁ | *x*₂ | WYNIK                               |
-| ------------------------ | ------------------------------ | ----- | ----- | --- | ---- | ---- | ----------------------------------- |
-| **WEJŚCIE**              | **0**                          | **2** | **3** |     |      |      |                                     |
-| *Δ* = *b*² - 4×*a*×*c*   | 0                              | 2     | 3     | 4   |      |      |                                     |
-| sprawdzanie, czy *Δ* > 0 | 0                              | 2     | 3     | 4   |      |      | tak                                 |
-| **WYJŚCIE**              | *x*₁ = (-*b* - √*Δ*) / (2×*a*) | 0     | 2     | 3   | 4    |      | <span style="color: red">0/0</span> |
+| KROK                     | *a*   | *b*   | *c*   | *Δ* | *x*₁                                | *x*₂                                | WYNIK                                     |
+| ------------------------ | ----- | ----- | ----- | --- | ----------------------------------- | ----------------------------------- | ----------------------------------------- |
+| **WEJŚCIE**              | **0** | **2** | **3** |     |                                     |                                     |                                           |
+| *Δ* = *b*² - 4×*a*×*c*   | 0     | 2     | 3     | 4   |                                     |                                     |                                           |
+| sprawdzanie, czy *Δ* > 0 | 0     | 2     | 3     | 4   |                                     |                                     | tak                                       |
+| **WYJŚCIE**              | 0     | 0     | 2     | 3   | <span style="color: red">0/0</span> | <span style="color: red">0/0</span> | <strong style="color: red;">BŁĄD</strong> |
 
 Czy widzicie, co się stało? Nasz algorytm zawiódł dla przypadku, w którym *a* = 0! Co można z tym zrobić? Cóż, musimy sprawdzić ten przypadek osobno. Zatem algorytm będzie wyglądał następująco:
 
@@ -206,7 +206,7 @@ Prześledźcie ten algorytm dla równań *x*²&nbsp;+&nbsp;2&nbsp;*x*&nbsp;-8&nb
 
 ## Podsumowanie
 
-Podczas kursu nauczycie się formalnego języka programowania. Oznacza to, że będziecie musieli dokładnie przestrzegać jego reguł semantycznych, w których każdy pojedynczy znak ma znaczenie. Jednocześnie będziecie musieli napisać precyzyjny algorytm realizujący dane zadanie. Rozważanie tych dwóch kwestii na raz może być z początku zbyt dużym wyzwaniem. Z tego powodu proponuję najpierw pisać algorytmy przy użyciu języka naturalnego, jak pokazano powyżej. Musicie zawsze jasno określić wejście, wyjście i precyzyjnie napisać wszystkie niezbędne kroki. Pamiętajcie również, aby oznaczyć wszystkie wartości pośrednie i zawsze używać ich nazw (nie używajcie przyimków). Gdy już to zrobicie, prześledźcie swój algorytm ręcznie, jak pokazano powyżej.
+Podczas kursu nauczycie się formalnego języka programowania. Oznacza to, że będziecie musieli dokładnie przestrzegać jego reguł semantycznych, w których każdy pojedynczy znak ma znaczenie. Jednocześnie będziecie musieli napisać precyzyjny algorytm realizujący dane zadanie. Rozważanie tych dwóch kwestii na raz może być z początku zbyt dużym wyzwaniem. Z tego powodu proponuję najpierw pisać algorytmy przy użyciu języka naturalnego, jak pokazano powyżej. Musicie zawsze jasno określić wejście, wyjście i precyzyjnie napisać wszystkie niezbędne kroki. Pamiętajcie również, aby oznaczyć wszystkie wartości pośrednie i zawsze używać ich nazw (nie używajcie zaimków). Gdy już to zrobicie, prześledźcie swój algorytm ręcznie, jak pokazano powyżej.
 
 Po wykonaniu tych czynności nie powinniście mieć problemu z przepisaniem algorytmu przy użyciu formalnego języka programowania, którego zasady poznacie w nadchodzących tygodniach.
 

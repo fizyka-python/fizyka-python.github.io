@@ -71,7 +71,7 @@ has_toc: false
 * [Zapisywanie do pliku](08%20Operacje%20na%20plikach/2%20Zapisywanie%20do%20pliku)
 * [Odczytywanie z pliku](08%20Operacje%20na%20plikach/3%20Odczytywanie%20z%20pliku)
 * [Zapisywanie i odczytywanie obiektów Pythona](08%20Operacje%20na%20plikach/4%20Zapisywanie%20i%20odczytywanie%20obiektow%20Pythona)
-* Ćwiczenie: [Verification](https://github.com/mds-python/verification)
+* Ćwiczenie: [Weryfikacja](https://github.com/fizyka-python/weryfikacja)
 
 ## Tablice numeryczne i wizualizacja danych
 
@@ -86,4 +86,4 @@ has_toc: false
 * [Klasy i obiekty](10%20Klasy%20i%20obiekty/2%20Klasy%20i%20obiekty)
 * [Własne typy danych](10%20Klasy%20i%20obiekty/3%20Wlasne%20typy%20danych)
 * [Metody specjalne](10%20Klasy%20i%20obiekty/4%20Metody%20specjalne)
-* Exercise: [Fractions](https://github.com/mds-python/fractions)
+* Ćwiczenie: [Ułamki](https://github.com/fizyka-python/ulamki)

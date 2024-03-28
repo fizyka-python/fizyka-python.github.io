@@ -44,7 +44,7 @@ Drugi typ reguły składni odnosi się do **struktury** wypowiedzi — czyli spo
 
 Kiedy czytasz zdanie w języku polskim, czy angielskim lub wypowiedź w języku formalnym, musisz dowiedzieć się, jaka jest struktura zdania (chociaż w języku naturalnym robicie to podświadomie). Proces ten nazywany jest **przetwarzaniem** lub **parsowaniem** (od angielskiego słowa *parsing* — przetwarzanie).
 
-Na przykład, gdy słyszycie zdanie "Drugi but spadł", rozumiecie, że *drugi but* jest podmiotem, a *spadł*, jako czasownik, jest orzeczeniem. Po przeanalizowaniu zdania możecie dowiedzieć się, co ono oznacza, czyli poznać jego **semantykę**. Zakładając, że wiecie, czym jest but i co oznacza upadek, zrozumiecie ogólne znaczenie tego zdania.
+Na przykład, gdy słyszycie zdanie "Drugi but spadł", rozumiecie, że *but* jest podmiotem, *drugi* przydawką, zaś *spadł*, jako czasownik, jest orzeczeniem. Po przeanalizowaniu zdania możecie dowiedzieć się, co ono oznacza, czyli poznać jego **semantykę**. Zakładając, że wiecie, czym jest but i co oznacza upadek, zrozumiecie ogólne znaczenie tego zdania.
 
 Chociaż języki formalne i naturalne mają wiele cech wspólnych — tokeny, strukturę, składnię i semantykę — istnieje wiele różnic:
 
