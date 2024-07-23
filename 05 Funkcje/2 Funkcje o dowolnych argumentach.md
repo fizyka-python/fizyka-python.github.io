@@ -63,7 +63,7 @@ funkcja4(1, y=2, a=3, b=4)  # 1 2 () {'a': 3, 'b': 4}
 funkcja4(1, 2, 3, a=4)      # 1 2 (3,) {'a': 4}
 ```
 
-Ciekawym przypadkiem jest umieszczenie normalnych argumentów po `**args`. Wtedy te parametry mogą być przekazane wyłącznie przez nazwę. Zasadne jest wtedy stosowanie wartości domyślnych. Np.:
+Ciekawym przypadkiem jest umieszczenie normalnych argumentów po `*args`. Wtedy te parametry mogą być przekazane wyłącznie przez nazwę. Zasadne jest wtedy stosowanie wartości domyślnych. Np.:
 
 ```python
 def funkcja5(*args, x=None, y=None, **kwargs):
